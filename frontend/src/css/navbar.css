@@ -1,0 +1,26 @@
+.nav-bar{
+    box-shadow: 3px 3px 10px rgb(216, 216, 216);
+}
+
+
+.nav-bar-right {
+    display: flex;
+    float: right;
+  }
+
+.nav-bar__item {
+color: rgb(139, 139, 139) !important ;
+}
+
+.nav-bar__item:hover {
+    color: rgb(56, 56, 56) !important ;
+    }
+
+.nav-bar__item--active{
+color: rgb(104, 80, 209) !important ;
+}
+
+
+.nav-bar-right li{
+    padding-left: 35px;
+}
