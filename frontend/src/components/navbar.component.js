@@ -35,8 +35,8 @@ const NavBar = () => {
                         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
 
                             <li className="nav-item">
-                                <Link className={`nav-link ${activeTab === tabs.home ? 'nav-bar__item--active' : 'nav-bar__item'}`} onClick={() => handleToggleTab(tabs.home)}>
-                                    MK
+                                <Link className={`nav-link ${activeTab === tabs.home ? 'nav-bar__item--active' : 'nav-bar__item'}`} onClick={() => handleToggleTab(tabs.home)} to="/" >
+                                   <b>MK</b> 
                                 </Link>
                             </li>
 
@@ -50,23 +50,21 @@ const NavBar = () => {
                     <div>
                         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
 
-
-
                             <div className="nav-bar-right">
                                 <li className="nav-item">
-                                    <Link className={`nav-link ${activeTab === tabs.resume ? 'nav-bar__item--active' : 'nav-bar__item'}`} onClick={() => handleToggleTab(tabs.resume)}>
+                                    <Link className={`nav-link ${activeTab === tabs.resume ? 'nav-bar__item--active' : 'nav-bar__item'}`} onClick={() => handleToggleTab(tabs.resume)} to="/resume">
                                         Resume
                                     </Link>
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link className={`nav-link ${activeTab === tabs.works ? 'nav-bar__item--active' : 'nav-bar__item'}`} onClick={() => handleToggleTab(tabs.works)}>
+                                    <Link className={`nav-link ${activeTab === tabs.works ? 'nav-bar__item--active' : 'nav-bar__item'}`} onClick={() => handleToggleTab(tabs.works)} to="/works">
                                         Works
                                     </Link>
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link className={`nav-link ${activeTab === tabs.projects ? 'nav-bar__item--active' : 'nav-bar__item'}`} onClick={() => handleToggleTab(tabs.projects)}>
+                                    <Link className={`nav-link ${activeTab === tabs.projects ? 'nav-bar__item--active' : 'nav-bar__item'}`} onClick={() => handleToggleTab(tabs.projects)} to="/projects">
                                         Projects
                                     </Link>
                                 </li>
@@ -74,7 +72,7 @@ const NavBar = () => {
 
 
                                 <li className="nav-item">
-                                    <Link className={`nav-link ${activeTab === tabs.aboutMe ? 'nav-bar__item--active' : 'nav-bar__item'}`} onClick={() => handleToggleTab(tabs.aboutMe)}>
+                                    <Link className={`nav-link ${activeTab === tabs.aboutMe ? 'nav-bar__item--active' : 'nav-bar__item'}`} onClick={() => handleToggleTab(tabs.aboutMe)} to="/about-me">
                                         About me
                                     </Link>
                                 </li>

@@ -1,0 +1,24 @@
+.project-card{
+    width:20rem;
+    padding: 5px;
+    box-shadow: 3px 3px 20px rgb(212, 212, 212);
+    border-radius: 12px;
+    border:0 !important;
+}
+
+.project-card__image{
+    border-radius: 14px;
+}
+
+.project-card__tag{
+color: rgb(99, 99, 99);
+}
+
+.project-card__title{
+    color: rgb(66, 66, 66);
+}
+
+.project-card__body{
+    padding-bottom: 0px;
+
+}
