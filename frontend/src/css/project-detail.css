@@ -2,7 +2,7 @@
 background-color: white;
 box-shadow: 0 0 5px rgb(212, 212, 212);
 border-radius: 14px;
-padding: 50px;
+padding: 20px 50px 50px 50px;
 }
 
 .heading-line {
@@ -17,7 +17,11 @@ padding-bottom: 10px;
 }
 .sub-heading-text{
     font-size:medium;
-font-weight: normal;
+    font-weight: normal;
+}
+
+.key-features{
+    color: rgb(88, 88, 88);
 }
 
 .features-content{
@@ -25,7 +29,7 @@ font-weight: normal;
 }
 
 .project-image {
-    border-radius: 14px;
+    border-radius: 4px;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;

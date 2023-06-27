@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectCard from '../components/project-card.component';
 import {Link} from "react-router-dom" 
+import projects from "../data/projects.json";
 
 const Projects = () => {
 
@@ -8,12 +9,13 @@ const Projects = () => {
 
     return (
         <div className="parent-div content">
-            <br/>
+           
             <div className="row">
-                {p.map((x) => (
+              
+                {projects.projects.map((project) => (
                     <div className="col-sm-4">
-                        <Link className="" to="/projects/1" style={{textDecoration:'none'}}>
-                        <ProjectCard />
+                        <Link className="" to={`/projects/${project.id}`} style={{textDecoration:'none'}}>
+                        <ProjectCard project={project}/>
                         </Link>
                     </div>
                 ))}

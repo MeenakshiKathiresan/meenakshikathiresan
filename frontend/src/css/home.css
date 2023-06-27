@@ -1,7 +1,41 @@
 .profile-pic{
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     float: right;
-    margin-right: 15%;
+    margin-left: 8vw;
+    margin-top: -4vh;
+}
+
+.parent-container{
+    padding-right: 10vw;
+    padding-left: 10vw ;
+   
+}
+
+.home-container {
+    display: flex;
+    padding-top: 15vh; /* Adjust this to control the spacing on top */
+    font-family: monospace;
+    
+  }
+
+  .content {
+    /* Your content styles */
+  }
+  
+  .link-button{
+      border-radius: 10px;
+      width:50px;
+      height:50px;
+      background-color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 8px;
+      margin-top: 2vh;
+      margin-right: 2vh;
+      box-shadow: 0px 0px 5px rgb(194, 194, 194);
+  }
+
+.heading-box{
+    margin-top: 15%;
 }

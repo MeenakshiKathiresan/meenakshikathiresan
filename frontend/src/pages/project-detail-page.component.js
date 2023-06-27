@@ -2,11 +2,14 @@ import React from 'react';
 import { useParams } from "react-router-dom";
 import "../css/global.css";
 import "../css/project-detail.css";
+import projects from "../data/projects.json";
 
-import { RiGlobalLine } from "react-icons/ri"
-
-import {AiFillGithub, AiFillYoutube} from "react-icons/ai"
+import { LuCircleDot } from "react-icons/lu";
 import LinkBadge from "../components/link-badge.component";
+
+import TagList from '../components/tag-list.component';
+
+
 
 
 const ProjectDetail = () => {
@@ -17,82 +20,64 @@ const ProjectDetail = () => {
     const tools = ["git"]
     const libraries = ["pathlib"]
 
+    const project = projects.projects[id]
+
+
     return (
         <div className="parent-div">
             <div className="container">
+
                 <div className="d-flex justify-content-between ">
                     <div className="heading-text ">
-                        project name
+                        {project.heading}
+                        {project.links.map((link) => {
+                    return <LinkBadge
+                        websiteLink={link.website_link}
+                        linkname={link.linkname}
+                        icon={link.icon}
+                        color={link.color}
+                    />
+                })}
                     </div>
                     <div>
-                        December, 2022
+                        {project.startDate}
                     </div>
-
-                    
                 </div>
-                <div className="d-flex">
-                            <LinkBadge
-                                websiteLink="https://hammerplay.com/"
-                                companyName="Company Website"
-                                icon={<RiGlobalLine size={24} color="white"  />}
-                                color ="#c4302b"
-                            />
 
-                            <LinkBadge
-                                websiteLink="https://hammerplay.com/"
-                                companyName="Company Website"
-                                icon={<AiFillYoutube size={24} color="white" />}
-                                color ="#c4302b"
-                            />
+                <div className="pt-4">
+                    <TagList tags={project.languages} className="language-tag" />
+                    <TagList tags={project.tools} className="tools-tag" />
+                    <TagList tags={project.libraries} className="libraries-tag" />
+                </div>
 
-                            <LinkBadge
-                                websiteLink="https://hammerplay.com/"
-                                companyName="Company Website"
-                                icon={<AiFillGithub size={24} color="white" />}
-                                color ="#575757"
-                            />
-                        </div>
+           
                 
-                <br />
-                A full stack ecommerce website to sign in, view & search products, add to cart, check out,
-                make payment and view order history. Google OAuth is used as a third party to sign in. Paypal
-                sandbox is used for payment integration. Images are loaded from AWS S3 bucket and the website
-                is deployed on heroku.
-                <br />  <br />
-                <div className="d-flex">
-                    {languages.map((language) => {
-                        return <div className="tag language-tag"> {language} </div>
-                    })}
+                <div className="pt-4 key-features">
+                <b>Key features</b>
 
-                    {tools.map((tool) => {
-                        return <div className="tag tools-tag"> {tool} </div>
-                    })}
+                    {project.features.map((feature) => {
+                        return <div>
+                            <span> <LuCircleDot /> </span> &nbsp;
+                            <span dangerouslySetInnerHTML={{ __html: feature }} />
+                        </div>
 
-                    {libraries.map((library) => {
-                        return <div className="tag libraries-tag"> {library} </div>
                     })}
-
                 </div>
 
-                <img className="project-image" src="https://i.pinimg.com/564x/6d/06/bd/6d06bdea6571e265f77dd2ee005c3733.jpg" />
-
-                <br />
-
-
+                    <div className="pt-4">
+                <img className="project-image" src={project.main_image} />
+                </div>
                 <div className=" heading-line sub-heading-text">
                     Project Impact
                 </div>
 
                 <div>
-                <br />
-                    A full stack ecommerce website to sign in, view & search products, add to cart, check out,
-                    make payment and view order history. Google OAuth is used as a third party to sign in. Paypal
-                    sandbox is used for payment integration. Images are loaded from AWS S3 bucket and the website
-                    is deployed on heroku.
+                
+                    {project.project_impact}
                 </div>
-                <br/>
+            
 
-               
+
 
 
             </div>

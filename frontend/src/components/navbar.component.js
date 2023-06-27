@@ -36,7 +36,7 @@ const NavBar = () => {
 
                             <li className="nav-item">
                                 <Link className={`nav-link ${activeTab === tabs.home ? 'nav-bar__item--active' : 'nav-bar__item'}`} onClick={() => handleToggleTab(tabs.home)} to="/" >
-                                   <b>MK</b> 
+                                   <b>Meenakshi Kathiresan</b> 
                                 </Link>
                             </li>
 
