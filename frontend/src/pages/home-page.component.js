@@ -41,16 +41,7 @@ const Home = () => {
 
                         <h1>
 
-                            <Typewriter
-
-                                onInit={(typewriter) => {
-                                    typewriter
-
-                                        .typeString("Meenakshi Kathiresan")
-                                        .start();
-                                }}
-                            />
-
+                           Meenakshi Kathiresan
                         </h1>
 
 
@@ -80,8 +71,6 @@ const Home = () => {
                     </div>
 
 
-
-
                 </div>
                 <div className="d-flex">
                     <div className="link-button">
@@ -106,10 +95,6 @@ const Home = () => {
                     </div>
 
                 </div>
-
-
-
-
             </div>
         </div>
     )
