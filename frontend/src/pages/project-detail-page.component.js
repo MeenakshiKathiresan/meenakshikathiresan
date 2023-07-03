@@ -1,8 +1,9 @@
 import React from 'react';
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import "../css/global.css";
 import "../css/project-detail.css";
 import projects from "../data/projects.json";
+import works from "../data/work.json";
 
 import { LuCircleDot } from "react-icons/lu";
 import LinkBadge from "../components/link-badge.component";
@@ -15,16 +16,20 @@ import TagList from '../components/tag-list.component';
 const ProjectDetail = () => {
 
     const { id } = useParams();
+    const {companyId, projectId} = useParams();
 
     const languages = ["python", "C++"]
     const tools = ["git"]
     const libraries = ["pathlib"]
 
-    const project = projects.projects[id]
+    const project = id? projects.projects[id] : works.works[companyId].projects[projectId]
+    console.log(project)
 
 
     return (
         <div className="parent-div">
+            {companyId? <Link to={`/companyprojects/${companyId}`}> Back to {works.works[companyId].company_name} projects</Link> :""}
+           
             <div className="container">
 
                 <div className="d-flex justify-content-between ">
@@ -50,7 +55,6 @@ const ProjectDetail = () => {
                     <TagList tags={project.libraries} className="libraries-tag" />
                 </div>
 
-           
                 
                 <div className="pt-4 key-features">
                 <b>Key features</b>

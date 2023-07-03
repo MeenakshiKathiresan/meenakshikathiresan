@@ -1,6 +1,5 @@
 .project-card{
-    width:20rem;
-    padding: 14px;
+    padding: 18px;
     box-shadow: 3px 3px 20px rgb(212, 212, 212);
     border-radius: 12px;
     border:0 !important;
@@ -14,10 +13,12 @@
 
 .project-card__tag{
 color: rgb(99, 99, 99);
+font-size: 12px;
 }
 
 .project-card__title{
     color: rgb(66, 66, 66);
+    font-size: 16px;
 }
 
 .project-card__body{

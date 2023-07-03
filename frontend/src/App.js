@@ -1,5 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import react from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -13,22 +14,29 @@ import Projects from './pages/projects-page.component';
 import AboutMe from './pages/about-me-page.component';
 import ProjectDetail from './pages/project-detail-page.component';
 
+import Footer from './components/footer.component';
+
 function App() {
   return (
     <div className="App-color">
-   
+
       <Router>
-      <NavBar/>
+        <NavBar />
         <Routes>
-          <Route path="/" element={<Home/>}/>
-          
-          
-          <Route path="/resume" element={<Resume/>}/>
-          <Route path="/works" element={<Works/>}/>
-          <Route path="/about-me" element={<AboutMe/>}/>
-          <Route path="/projects" element={<Projects/>}/>
-          <Route path="/projects/:id" element={<ProjectDetail/>}/>
+          <Route path="/" element={<Home />} />
+
+
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/works" element={<Works />} />
+          <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:id" element={<ProjectDetail />} />
+          <Route path="/companyprojects/:companyId" element={<Projects />} />
+          <Route path="/companyprojects/:companyId/:projectId" element={<ProjectDetail />} />
+
         </Routes>
+        <br />
+        <Footer />
       </Router>
 
 

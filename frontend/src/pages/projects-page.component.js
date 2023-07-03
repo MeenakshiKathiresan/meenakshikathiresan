@@ -1,21 +1,27 @@
 import React from 'react';
 import ProjectCard from '../components/project-card.component';
-import {Link} from "react-router-dom" 
-import projects from "../data/projects.json";
+import {Link, useParams} from "react-router-dom" 
+import projectsData from "../data/projects.json";
+import works from "../data/work.json"
 
 const Projects = () => {
 
-    const p = [1, 2, 3, 4]
+    const { companyId } = useParams();
+
+    const projects = companyId? works.works[parseInt(companyId)].projects : projectsData.projects
+    const heading = companyId? works.works[parseInt(companyId)].company_name : "Projects"
+    
 
     return (
         <div className="parent-div content">
+            <h4> {heading} </h4>
            
             <div className="row">
               
-                {projects.projects.map((project) => (
+                {projects.map((project) => (
                     <div className="col-sm-4">
-                        <Link className="" to={`/projects/${project.id}`} style={{textDecoration:'none'}}>
-                        <ProjectCard project={project}/>
+                        <Link className=""   to={companyId? `/companyprojects/${companyId}/${project.id}` : `/projects/${project.id}`} style={{textDecoration:'none'}}>
+                        <ProjectCard project={project} displayTag ={true} />
                         </Link>
                     </div>
                 ))}

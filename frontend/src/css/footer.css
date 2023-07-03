@@ -1,0 +1,20 @@
+
+.footer-container{
+    width: 100%;
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(212, 212, 212);
+    font-family: monospace;  
+}
+
+.footer-content{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+a{
+    text-decoration: none;
+    color:none;
+}

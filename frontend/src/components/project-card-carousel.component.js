@@ -1,12 +1,13 @@
 import React from "react";
 import "../css/project-card.css"
 
-const ProjectCard = ({project, cardWidth, displayTag}) => {
+const ProjectCardCarousel = ({project, cardWidth, displayTag}) => {
 
+    
 
     return (<div className="pt-4">
 
-        <div className="card project-card" style={{width:cardWidth}}>
+        <div className="card project-card" style={{width:"100"}}>
             <img className="project-card__image p-2" src={project.thumbnail} alt="Card image cap" />
             <div className="card-body project-card__body">
                 <h5 className="project-card__title">{project.heading}</h5>
@@ -19,4 +20,4 @@ const ProjectCard = ({project, cardWidth, displayTag}) => {
     </div>)
 }
 
-export default ProjectCard;
+export default ProjectCardCarousel;

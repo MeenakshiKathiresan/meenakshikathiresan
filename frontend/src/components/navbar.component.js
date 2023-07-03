@@ -8,10 +8,8 @@ const NavBar = () => {
 
     const tabs = {
         home: "Home",
-        resume: "Resume",
         works: "Works",
         projects: "Projects",
-        aboutMe: "About me"
     }
 
     const [activeTab, setActiveTab] = useState(tabs.home)
@@ -52,8 +50,8 @@ const NavBar = () => {
 
                             <div className="nav-bar-right">
                                 <li className="nav-item">
-                                    <Link className={`nav-link ${activeTab === tabs.resume ? 'nav-bar__item--active' : 'nav-bar__item'}`} onClick={() => handleToggleTab(tabs.resume)} to="/resume">
-                                        Resume
+                                    <Link className={`nav-link ${activeTab === tabs.home ? 'nav-bar__item--active' : 'nav-bar__item'}`} onClick={() => handleToggleTab(tabs.home)} to="/">
+                                        Home
                                     </Link>
                                 </li>
 
@@ -71,11 +69,6 @@ const NavBar = () => {
 
 
 
-                                <li className="nav-item">
-                                    <Link className={`nav-link ${activeTab === tabs.aboutMe ? 'nav-bar__item--active' : 'nav-bar__item'}`} onClick={() => handleToggleTab(tabs.aboutMe)} to="/about-me">
-                                        About me
-                                    </Link>
-                                </li>
                             </div>
 
                         </ul>
