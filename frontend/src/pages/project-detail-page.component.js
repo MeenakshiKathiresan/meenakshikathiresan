@@ -68,7 +68,7 @@ const ProjectDetail = () => {
                     })}
                 </div>
 
-                    <div className="pt-4">
+                    <div className="p-4">
                 <img className="project-image" src={project.main_image} />
                 </div>
                 <div className=" heading-line sub-heading-text">
