@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App-color">
 
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <NavBar/>
         <Routes>
           <Route path="/" element={<Home />} />
