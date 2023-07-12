@@ -100,7 +100,7 @@ const Home = () => {
         }
     }
     return (
-        <div className="parent-div content">
+        <div className="parent-div parent-div-top content">
             {getLeetcodeData()}
 
             <div className="parent-container">
@@ -174,7 +174,7 @@ const Home = () => {
             </div>
             <br /><br /><br /><br /><br />
 
-            <div className="d-flex">
+            <div className="columns">
                 <div className="about-me left-section">
                     <div className="section lh-lg about-me-content">
                         <div className="section-heading">
@@ -292,8 +292,8 @@ const Home = () => {
 
 
 
-                <div className="projects">
-                    <div className="section lh-lg about-me-content">
+                <div className="w-100">
+                    <div className="section ">
                         <div className="section-heading text-center">
                             Projects
                         </div>

@@ -1,5 +1,4 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import react from 'react';
@@ -21,7 +20,7 @@ function App() {
     <div className="App-color">
 
       <Router>
-        <NavBar />
+        <NavBar/>
         <Routes>
           <Route path="/" element={<Home />} />
 
