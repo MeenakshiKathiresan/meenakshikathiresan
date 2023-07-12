@@ -1,0 +1,256 @@
+{
+    "works": [
+        {
+            "_id": 0,
+            "company_name": "Light Pong, Chicago",
+            "role_name": "Software Engineer intern",
+            "start_date": "Sept 2022",
+            "end_date": "Dec 2022",
+            "achievements": "Achieved",
+            "impact": "impacts",
+            "languages": [
+                "javascript"
+               
+            ],
+            "tools": [
+                "Mongo DB"
+            ],
+            "libraries": [
+                "axios",
+                "bootstrap",
+                "dotenv",
+                "google-oauth"
+            ],
+            "links": [
+                {
+                    "icon": "github",
+                    "linkname": "github",
+                    "website_link": "https://github.com/MeenakshiKathiresan/questionner",
+                    "color": "#292929"
+                }
+            ],
+            "projects": [
+                {
+                    "id": "0",
+                    "project_name": "Test",
+                    "heading": "Questionner - MERN stack wap",
+                    "tagline": "Tech community: Ask, answer, vote for the best solutions.",
+                    "thumbnail": "https://github-production-user-asset-6210df.s3.amazonaws.com/26730019/247545524-03f973d9-5cb4-4c6b-b71b-0527a74278c8.png",
+                    "startDate": "April, 2023",
+                    "languages": [
+                        "javascript",
+                        "HTML",
+                        "CSS"
+                    ],
+                    "tools": [
+                        "Mongo DB",
+                        "Express",
+                        "React",
+                        "Node",
+                        "MongoDB atlas"
+                    ],
+                    "libraries": [
+                        "axios",
+                        "bootstrap",
+                        "dotenv",
+                        "jwt",
+                        "cors",
+                        "mongoose",
+                        "passport",
+                        "google-oauth"
+                    ],
+                    "links": [
+                        {
+                            "icon": "github",
+                            "linkname": "github",
+                            "website_link": "https://github.com/MeenakshiKathiresan/questionner",
+                            "color": "#292929"
+                        }
+                    ],
+                    "main_image": "https://github-production-user-asset-6210df.s3.amazonaws.com/26730019/247545524-03f973d9-5cb4-4c6b-b71b-0527a74278c8.png",
+                    "features": [
+                        "<strong>User Authentication:</strong> Users can authenticate using their Gmail accounts (on the server-side with Passport).",
+                        "<strong>Question Management:</strong> Users can create, edit, and delete question posts.",
+                        "<strong>Voting System:</strong> Users can upvote and downvote answers to express their preferences.",
+                        "<strong>Post and Comment Ordering:</strong> Posts and comments are displayed in the order of upvotes",
+                        "<strong>Search Functionality:</strong> Users can search for specific posts using tags or keywords.",
+                        "<strong>Profile Viewing: </strong>Users can view their profiles to see all their activities in one place.",
+                        "<strong>Latest Posts:</strong> A preview of the most recent posts are given on the homepage as teasers."
+                    ],
+                    "project_impact": "Project Impact"
+                }
+            ]
+        },
+
+
+
+
+        {
+            "_id": 1,
+            "company_name": "Fitness one, India",
+            "role_name": "Associate Product Manager",
+            "start_date": "Dec 2019",
+            "end_date": "Dec 2021",
+            "achievements": "Achieved",
+            "impact": "impacts",
+            "languages": [
+                "javascript"
+               
+            ],
+            "tools": [
+                "Mongo DB"
+            ],
+            "libraries": [
+                "axios",
+                "bootstrap",
+                "dotenv",
+                "google-oauth"
+            ],
+            "links": [
+                {
+                    "icon": "github",
+                    "linkname": "github",
+                    "website_link": "https://github.com/MeenakshiKathiresan/questionner",
+                    "color": "#292929"
+                }
+            ],
+            "projects": [
+                {
+                    "id": "0",
+                    "project_name": "Test",
+                    "heading": "Questionner - MERN stack wap",
+                    "tagline": "Tech community: Ask, answer, vote for the best solutions.",
+                    "thumbnail": "https://github-production-user-asset-6210df.s3.amazonaws.com/26730019/247545524-03f973d9-5cb4-4c6b-b71b-0527a74278c8.png",
+                    "startDate": "April, 2023",
+                    "languages": [
+                        "javascript",
+                        "HTML",
+                        "CSS"
+                    ],
+                    "tools": [
+                        "Mongo DB",
+                        "Express",
+                        "React",
+                        "Node",
+                        "MongoDB atlas"
+                    ],
+                    "libraries": [
+                        "axios",
+                        "bootstrap",
+                        "dotenv",
+                        "jwt",
+                        "cors",
+                        "mongoose",
+                        "passport",
+                        "google-oauth"
+                    ],
+                    "links": [
+                        {
+                            "icon": "github",
+                            "linkname": "github",
+                            "website_link": "https://github.com/MeenakshiKathiresan/questionner",
+                            "color": "#292929"
+                        }
+                    ],
+                    "main_image": "https://github-production-user-asset-6210df.s3.amazonaws.com/26730019/247545524-03f973d9-5cb4-4c6b-b71b-0527a74278c8.png",
+                    "features": [
+                        "<strong>User Authentication:</strong> Users can authenticate using their Gmail accounts (on the server-side with Passport).",
+                        "<strong>Question Management:</strong> Users can create, edit, and delete question posts.",
+                        "<strong>Voting System:</strong> Users can upvote and downvote answers to express their preferences.",
+                        "<strong>Post and Comment Ordering:</strong> Posts and comments are displayed in the order of upvotes",
+                        "<strong>Search Functionality:</strong> Users can search for specific posts using tags or keywords.",
+                        "<strong>Profile Viewing: </strong>Users can view their profiles to see all their activities in one place.",
+                        "<strong>Latest Posts:</strong> A preview of the most recent posts are given on the homepage as teasers."
+                    ],
+                    "project_impact": "Project Impact"
+                }
+            ]
+        },
+
+
+
+
+
+        {
+            "_id": 2,
+            "company_name": "Hammer play studios",
+            "role_name": "Junior Game Developer",
+            "start_date": "Sept 2022",
+            "end_date": "Dec 2022",
+            "achievements": "Achieved",
+            "impact": "impacts",
+            "languages": [
+                "javascript"
+               
+            ],
+            "tools": [
+                "Mongo DB"
+            ],
+            "libraries": [
+                "axios",
+                "bootstrap",
+                "dotenv",
+                "google-oauth"
+            ],
+            "links": [
+                {
+                    "icon": "github",
+                    "linkname": "github",
+                    "website_link": "https://github.com/MeenakshiKathiresan/questionner",
+                    "color": "#292929"
+                }
+            ],
+            "projects": [
+                {
+                    "id": "0",
+                    "project_name": "Test",
+                    "heading": "Questionner - MERN stack wap",
+                    "tagline": "Tech community: Ask, answer, vote for the best solutions.",
+                    "thumbnail": "https://github-production-user-asset-6210df.s3.amazonaws.com/26730019/247545524-03f973d9-5cb4-4c6b-b71b-0527a74278c8.png",
+                    "startDate": "April, 2023",
+                    "languages": [
+                        "javascript",
+                        "HTML",
+                        "CSS"
+                    ],
+                    "tools": [
+                        "Mongo DB",
+                        "Express",
+                        "React",
+                        "Node",
+                        "MongoDB atlas"
+                    ],
+                    "libraries": [
+                        "axios",
+                        "bootstrap",
+                        "dotenv",
+                        "jwt",
+                        "cors",
+                        "mongoose",
+                        "passport",
+                        "google-oauth"
+                    ],
+                    "links": [
+                        {
+                            "icon": "github",
+                            "linkname": "github",
+                            "website_link": "https://github.com/MeenakshiKathiresan/questionner",
+                            "color": "#292929"
+                        }
+                    ],
+                    "main_image": "https://github-production-user-asset-6210df.s3.amazonaws.com/26730019/247545524-03f973d9-5cb4-4c6b-b71b-0527a74278c8.png",
+                    "features": [
+                        "<strong>User Authentication:</strong> Users can authenticate using their Gmail accounts (on the server-side with Passport).",
+                        "<strong>Question Management:</strong> Users can create, edit, and delete question posts.",
+                        "<strong>Voting System:</strong> Users can upvote and downvote answers to express their preferences.",
+                        "<strong>Post and Comment Ordering:</strong> Posts and comments are displayed in the order of upvotes",
+                        "<strong>Search Functionality:</strong> Users can search for specific posts using tags or keywords.",
+                        "<strong>Profile Viewing: </strong>Users can view their profiles to see all their activities in one place.",
+                        "<strong>Latest Posts:</strong> A preview of the most recent posts are given on the homepage as teasers."
+                    ],
+                    "project_impact": "Project Impact"
+                }
+            ]
+        }
+    ]
+}

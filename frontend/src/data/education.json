@@ -1,0 +1,44 @@
+{
+    "education": [
+        {
+            "school_name": "University of New Hampshire",
+            "degree":"Masters of Science",
+            "major":"Information Technology",
+            "end_date": "Aug 2023",
+            "courses":["Software development","Full stack development", "Machine Learning", "Computer Vision"],
+            "cgpa":"4/4",
+            "achievement":"Student marshal",
+            "links": [
+                {
+                    "icon": "github",
+                    "linkname": "University website",
+                    "website_link": "https://github.com/MeenakshiKathiresan/questionner",
+                    "color": "#292929"
+                }]
+        },
+        {
+            "school_name": "Anna University",
+            "degree":"Masters of Science",
+            "major":"Electronic Media",
+            "end_date": "May 2019",
+            "courses":["Programming languages I and II", "Game Development"],
+            "cgpa":"8.9/10",
+            "achievement":"",
+            "links": [
+                {
+                    "icon": "github",
+                    "linkname": "University Website",
+                    "website_link": "https://github.com/MeenakshiKathiresan/questionner",
+                    "color": "#292929"
+                }]
+        }
+    ], 
+    "certifications":[
+        {
+            "name":"AWS cloud practitioner",
+            "end_date":"June 2023",
+            "institute": "Amazon Web Services",
+            "Score":"83.4%"
+        }
+    ]
+}

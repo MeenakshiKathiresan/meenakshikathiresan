@@ -1,0 +1,98 @@
+{
+    "projects": [
+        {
+            "id":"0",
+            "project_name": "Vaccine Tracker",
+            "heading": "Vaccine Tracker - MERN stack app",
+            "tagline": "Manage clinical vaccine trials, track patients, record vitals",
+            "thumbnail": "https://i.imgur.com/k1xUebr.png",
+            "startDate": "May 2023",
+            "languages": ["javascript", "HTML","CSS"],
+            "tools": ["Mongo DB", "Express", "React", "Node", "MongoDB atlas"],
+            "libraries": ["axios", "bootstrap", "dotenv", "react-chartjs-2", "cors", "mongoose"],
+            "links": [
+              {
+                "icon": "github",
+                "linkname": "github",
+                "website_link": "https://github.com/MeenakshiKathiresan/vaccine-tracking",
+                "color": "#292929"
+              }
+            ],
+            "main_image": "https://user-images.githubusercontent.com/26730019/247542481-83c12d5b-761d-4f5b-819b-66fe93d8345f.png",
+            "features":  [
+              "<strong>Clinical Trials:</strong> Users can create new clinical trials by defining a vaccine and specifying its three phases.",
+              "<strong>Patient Management:</strong> Patients can be added to each phase of the clinical trials, tracking their progress through the different stages.",
+              "<strong>Patient Observations:</strong> Users can record observations of patients' vitals, providing valuable data for analysis.",
+              "<strong>Dashboard:</strong> The system generates a comprehensive dashboard on the home page, presenting real-time data visualizations and analytics for monitoring the overall progress and outcomes of the clinical trials."
+            ],
+            "project_impact": "MERN stack (MongoDB, Express.js, React.js, Node.js). By developing a dashboard and implementing CRUD (Create, Read, Update, Delete) operations, I have gained hands-on experience in building user-friendly interfaces and efficiently managing patient data. This project has allowed me to enhance my skills and proficiency in full-stack web development. I learnt to create basic analytics based on the data available and present it as a dashboard. The impact of this project extends beyond personal growth. It has the potential to streamline the vaccination process, improve patient management, and contribute to better public health outcomes. By providing a comprehensive tracking system, it can assist in monitoring the progress and outcomes of clinical trials, ultimately making a positive difference in people's lives."
+          },
+
+
+
+          {
+            "id":"1",
+            "project_name": "Questionner",
+            "heading": "Questionner - MERN stack app",
+            "tagline": "Tech community: Ask, answer, vote for the best solutions.",
+            "thumbnail": "https://i.imgur.com/fqr3b6c.png",
+            "startDate": "April 2023",
+            "languages": ["javascript", "HTML","CSS"],
+            "tools": ["Mongo DB", "Express", "React", "Node", "MongoDB atlas"],
+            "libraries": ["axios", "bootstrap", "dotenv", "jwt", "cors", "mongoose", "passport", "google-oauth"],
+            "links": [
+              {
+                "icon": "github",
+                "linkname": "github",
+                "website_link": "https://github.com/MeenakshiKathiresan/questionner",
+                "color": "#292929"
+              }
+            ],
+            "main_image": "https://github-production-user-asset-6210df.s3.amazonaws.com/26730019/247545524-03f973d9-5cb4-4c6b-b71b-0527a74278c8.png",
+            "features":  [
+                "<strong>User Authentication:</strong> Users can authenticate using their Gmail accounts (on the server-side with Passport).", 
+                "<strong>Question Management:</strong> Users can create, edit, and delete question posts.",
+                "<strong>Voting System:</strong> Users can upvote and downvote answers to express their preferences.",
+                "<strong>Post and Comment Ordering:</strong> Posts and comments are displayed in the order of upvotes",
+                "<strong>Search Functionality:</strong> Users can search for specific posts using tags or keywords.",
+                "<strong>Profile Viewing: </strong>Users can view their profiles to see all their activities in one place.",
+                "<strong>Latest Posts:</strong> A preview of the most recent posts are given in the home page as teaser."
+            ],
+            "project_impact": "During this project, I had the opportunity to learn and apply various skills, including implementing Gmail authentication, incorporating a search feature using keyword elastic search, and creating profile pages with personal statistics. This hands-on experience enhanced my understanding of web development and improved my proficiency with the MERN stack. This project, presented as my university final project, has brought recognition for its features, user-friendly interface, and positive impact on knowledge sharing among programmer"
+                    },
+
+
+
+          {
+            "id":"3",
+            "project_name": "E-buy",
+            "heading": "E-buy - Django Full Stack Web app",
+            "tagline": "A fullstack e-commerce website with Django",
+            "thumbnail": "https://user-images.githubusercontent.com/26730019/221915166-6e13a90a-68be-42ec-85ba-8179ac65a9b7.png",
+            "startDate": "Nov 2022",
+            "languages": ["python","dtl", "javascript", "HTML","CSS"],
+            "tools": ["Django"],
+            "libraries": ["Paypal API", "Amazon S3", "Heroku", "Google OAuth", "git"],
+            "links": [
+              {
+                "icon": "github",
+                "linkname": "github",
+                "website_link": "https://github.com/MeenakshiKathiresan/ecommerce",
+                "color": "#292929"
+              }
+            ],
+            "main_image": "https://i.imgur.com/EsJPYaU.png",
+            "features":  [
+                "<strong>User Authentication:</strong> Users can authenticate using their Gmail accounts (on the server-side with Passport).", 
+                "<strong>Question Management:</strong> Users can create, edit, and delete question posts.",
+                "<strong>Voting System:</strong> Users can upvote and downvote answers to express their preferences.",
+                "<strong>Post and Comment Ordering:</strong> Posts and comments are displayed in the order of upvotes",
+                "<strong>Search Functionality:</strong> Users can search for specific posts using tags or keywords.",
+                "<strong>Profile Viewing: </strong>Users can view their profiles to see all their activities in one place.",
+                "<strong>Latest Posts:</strong> A preview of the most recent posts are given in the home page as teaser."
+            ],
+            "project_impact": "Project Impact"
+          }
+          
+    ]
+}
