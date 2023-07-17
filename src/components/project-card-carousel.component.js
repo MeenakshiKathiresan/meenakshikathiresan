@@ -5,7 +5,7 @@ const ProjectCardCarousel = ({project, cardWidth, displayTag}) => {
 
     
 
-    return (<div className="pt-4">
+    return (<div>
 
         <div className="card project-card" style={{width:"100"}}>
             <img className="project-card__image p-2" src={project.thumbnail} alt="Card image cap" />

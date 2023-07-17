@@ -53,3 +53,12 @@
     background-color: rgb(134, 134, 134, 0.5);
 }
 
+@media (max-width: 768px) {
+
+
+.tag{
+    font-weight:600;
+    font-size: x-small;
+}
+
+}

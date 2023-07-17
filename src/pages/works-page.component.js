@@ -11,7 +11,7 @@ const Works = () => {
     const p = [1, 2, 3]
     return (
         <div className="parent-div content">
-            <div className="global-heading">
+            <div className="heading">
             Work experience
             </div>
             <div className="row">
@@ -22,7 +22,7 @@ const Works = () => {
                 ))}
             </div>
             <br/>
-            <div className="global-heading">
+            <div className="heading">
             Education
             </div>
             <div className="row">
@@ -33,7 +33,7 @@ const Works = () => {
                 ))}
             </div>
             <br/>
-            <div className="global-heading">
+            <div className="heading">
             Certification
             </div>
             <div className="row">
