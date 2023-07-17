@@ -20,7 +20,7 @@ function App() {
     <div className="App-color">
 
       <Router basename={process.env.PUBLIC_URL}>
-        <NavBar/>
+       
         <Routes>
           <Route path="/" element={<Home />} />
 
@@ -36,6 +36,7 @@ function App() {
         </Routes>
         <br />
         <Footer />
+        <NavBar/>
       </Router>
 
 

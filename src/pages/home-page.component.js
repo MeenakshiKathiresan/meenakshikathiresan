@@ -12,7 +12,6 @@ import TagList from '../components/tag-list.component';
 import resume from "../assets/Resume - Meenakshi Kathriesan.pdf"
 
 import { AiFillCheckCircle } from "react-icons/ai"
-import { BsFillTriangleFill, BsFillSquareFill, BsFillPentagonFill } from "react-icons/bs"
 import { SiLeetcode } from "react-icons/si"
 
 
@@ -25,48 +24,8 @@ import ProjectCardCarousel from '../components/project-card-carousel.component';
 
 import { GrCaretNext, GrCaretPrevious, GrCatetNext } from "react-icons/gr";
 import Footer from '../components/footer.component';
-
-
-const category = {
-    easy: 'EASY',
-    medium: 'MEDIUM',
-    hard: 'HARD',
-};
-
-const LeetcodeCard = ({ category, count, className }) => {
-
-    const getIcon = (iconName) => {
-        switch (iconName) {
-            case "EASY":
-                return <BsFillTriangleFill size={75} color="white" />;
-            case "MEDIUM":
-                return <BsFillSquareFill size={75} color="white" />;
-            case "HARD":
-                return <BsFillPentagonFill size={75} color="white" />;
-            default:
-                return null;
-        }
-    }
-
-
-    return (
-        <div class="col-md-4">
-            <div class={`card ${className} leetcode-card`}>
-                <div class="card-body">
-                    <div className="d-flex justify-content-between align-items-center">
-                        <div className="leetcode__icon">
-
-                            {getIcon(category)}
-                        </div>
-                        <div class="card-text leetcode-card__text">{category}</div>
-
-                        <div class="card-title leetcode-card__number">{count}</div>
-                    </div>
-                </div>
-            </div>
-        </div>)
-}
-
+import zIndex from '@material-ui/core/styles/zIndex';
+import LeetcodeCard from '../components/leetcode-card.component';
 
 
 const Home = () => {
@@ -83,6 +42,12 @@ const Home = () => {
     const leetcode_topics = ["Arrays", "Strings", "Linked List", " Two pointers", "Sorting", "Matrix", "Hash table", "Stack", "Queue", "Binary search", "Binary Search Tree", "Binary Tree", "Directed Graphs", "Undirected Graphs", "Depth First Search", "Breadth First Search"]
 
     const [leetcodeData, setLeetcodeData] = useState({})
+
+    const category = {
+        easy: 'EASY',
+        medium: 'MEDIUM',
+        hard: 'HARD',
+    };
 
     const getLeetcodeData = () => {
         {
@@ -103,7 +68,7 @@ const Home = () => {
         <div className="parent-div parent-div-top content">
             {getLeetcodeData()}
 
-            <div className="parent-container">
+            <div className="home-parent-container">
 
                 <div className="home-container">
                     <div>
@@ -134,6 +99,8 @@ const Home = () => {
                                     .typeString("Full stack developer")
                                     .start();
                             }}
+
+                            style={{zIndex:'0'}}
                         />
 
                         
@@ -168,11 +135,8 @@ const Home = () => {
 
                 </div>
 
-
-
-
             </div>
-            <br /><br /><br /><br /><br />
+            
 
             <div className="columns">
                 <div className="about-me left-section">
@@ -300,7 +264,7 @@ const Home = () => {
 
                         <div className="section-sub-heading ">
 
-                            <Carousel>
+                            <Carousel >
                                     {projects.projects.map((project) => (
                                         <div className="carousel-card">
                                             <Link className="" to={`/projects/${project.id}`} style={{ textDecoration: 'none' }}>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../css/global.css";
+import "../css/link-badge.css";
 
 import { RiGlobalLine } from "react-icons/ri"
 import { AiFillGithub, AiFillYoutube } from "react-icons/ai"

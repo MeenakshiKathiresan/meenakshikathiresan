@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/project-card.css"
+import "../css/project-card-carousel.css"
 
 const ProjectCardCarousel = ({project, cardWidth, displayTag}) => {
 
