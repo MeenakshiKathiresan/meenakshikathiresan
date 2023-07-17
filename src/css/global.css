@@ -83,6 +83,9 @@
         margin-right: 5%;
         max-width: 100%;
     } */
+    .button{
+        font-size: xx-small;
+    }
     .parent-div-top {
         padding-top: 2vw;
     }

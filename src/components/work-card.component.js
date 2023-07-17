@@ -29,17 +29,24 @@ const WorkCard = ({ exp }) => {
 
             <div className="card-body work-card__body">
                 <div className="d-flex justify-content-between">
-                    <h5 className="work-card__title">{exp.role_name}</h5>
-                    <div>{exp.start_date} - {exp.end_date}
+                    <h5 className="work-card__title">{exp.role_name}
+                    <span className="work-card__date--down"><br/>{exp.start_date} - {exp.end_date}</span> 
+                    </h5>
+                    <div className="">
+                        <span className="work-card__date--beside">{exp.start_date} - {exp.end_date}</span> 
 
-                        <div className="btn px-4 m-0">
+                        <span >
+                            <span className="icon-container">
+                          
                             {!isOpen ? (
-                                <IoMdArrowDropdownCircle size={30} />
+                                <IoMdArrowDropdownCircle />
                             ) : (
 
-                                <IoMdArrowDropupCircle size={30} />
+                                <IoMdArrowDropupCircle />
                             )}
-                        </div>
+                                  
+                                  </span>
+                        </span>
                     </div>
                 </div>
                 <p className="work-card__tag">{exp.company_name}</p>
@@ -60,7 +67,6 @@ const WorkCard = ({ exp }) => {
                     })}
 
                 </div>
-                <br />
 
                 {isOpen && (
                     <div>

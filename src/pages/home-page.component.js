@@ -66,7 +66,7 @@ const Home = () => {
     }
     return (
         <div className="parent-div parent-div-top content">
-            {getLeetcodeData()}
+            {leetcodeData? "":getLeetcodeData()}
 
             <div className="home-parent-container">
 

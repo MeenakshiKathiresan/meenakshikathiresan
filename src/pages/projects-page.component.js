@@ -13,7 +13,8 @@ const Projects = () => {
     
 
     return (
-        <div className="parent-div content">
+        
+        <div className="parent-div content parent-div-top">
             <h4> {heading} </h4>
            
             <div className="row">

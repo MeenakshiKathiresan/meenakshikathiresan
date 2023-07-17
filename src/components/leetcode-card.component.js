@@ -34,6 +34,7 @@ const LeetcodeCard = ({ category, count, className }) => {
 
                             {getIcon(category)}
                         </div>
+                        
                         <div class="card-text leetcode-card__text">{category}</div>
 
                         <div class="card-title leetcode-card__number">{count}</div>
