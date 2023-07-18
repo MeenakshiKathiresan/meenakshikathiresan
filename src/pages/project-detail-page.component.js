@@ -11,8 +11,6 @@ import LinkBadge from "../components/link-badge.component";
 import TagList from '../components/tag-list.component';
 
 
-
-
 const ProjectDetail = () => {
 
     const { id } = useParams();
@@ -27,14 +25,21 @@ const ProjectDetail = () => {
 
 
     return (
-        <div className="parent-div">
+        <div className="parent-div page-top-padding">
             {companyId? <Link to={`/companyprojects/${companyId}`}> Back to {works.works[companyId].company_name} projects</Link> :""}
            
             <div className="container">
 
                 <div className="d-flex justify-content-between ">
-                    <div className="heading-text ">
+                    <div className="heading">
+
                         {project.heading}
+                        <div className="date--down">  {project.startDate}</div>
+
+
+                        <div className="section-content">
+                      
+                    </div>
                         {project.links.map((link) => {
                     return <LinkBadge
                         websiteLink={link.website_link}
@@ -44,9 +49,8 @@ const ProjectDetail = () => {
                     />
                 })}
                     </div>
-                    <div>
-                        {project.startDate}
-                    </div>
+                    <div className="date--beside">  {project.startDate}</div>
+                  
                 </div>
 
                 <div className="pt-4">
@@ -56,8 +60,8 @@ const ProjectDetail = () => {
                 </div>
 
                 
-                <div className="pt-4 key-features">
-                <b>Key features</b>
+                <div className="pt-4 section-content">
+                <div className="section-sub-heading">Key features</div>
 
                     {project.features.map((feature) => {
                         return <div>
@@ -71,11 +75,11 @@ const ProjectDetail = () => {
                     <div className="p-4">
                 <img className="project-image" src={project.main_image} />
                 </div>
-                <div className=" heading-line sub-heading-text">
+                <div className="section-sub-heading">
                     Project Impact
                 </div>
 
-                <div>
+                <div className="section-content">
                 
                     {project.project_impact}
                 </div>

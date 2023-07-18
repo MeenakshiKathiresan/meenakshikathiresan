@@ -18,28 +18,37 @@ const EduCard = ({ edu }) => {
 
             <div className="card-body work-card__body">
                 <div className="d-flex justify-content-between">
-                    <h5 className="work-card__title">{edu.school_name}</h5>
-                    <div>{edu.end_date}
-                        <div className="btn px-4 m-0">
-                            {!isOpen ? (
-                                <IoMdArrowDropdownCircle size={30} />
-                            ) : (
+                    <h5 className="work-card__title">{edu.school_name}
 
-                                <IoMdArrowDropupCircle size={30} />
-                            )}
-                        </div>
+                    <span className="work-card__date--down"><br />{edu.end_date}</span>
+                    </h5>
+            
 
+                    <div className="">
+                        <span className="work-card__date--beside">{edu.end_date}</span>
 
+                        <span >
+                            <span className="icon-container">
+
+                                {!isOpen ? (
+                                    <IoMdArrowDropdownCircle />
+                                ) : (
+
+                                    <IoMdArrowDropupCircle />
+                                )}
+
+                            </span>
+                        </span>
                     </div>
                 </div>
-                <p className="work-card__tag">{edu.degree} in {edu.major}</p>
+                <div className="work-card__tag">{edu.degree} in {edu.major}</div>
 
                 {isOpen && (
                     <div>
                         <TagList tags={edu.courses} className="libraries-tag" />
 
                     <br/>
-                        <div>
+                        <div className="work-card__content{">
                             Achievements: {edu.achievement}
 
                         </div>

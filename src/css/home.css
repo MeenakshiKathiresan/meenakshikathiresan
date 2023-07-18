@@ -15,7 +15,7 @@
 
 .home-container {
   display: flex;
-  padding-top: 15vh;
+  padding-top: 8vh;
   font-family: monospace;
   justify-content: space-between;
   align-items: center;
@@ -43,8 +43,8 @@ font-size: x-large;
   background-color: rgb(255, 255, 255);
   text-align: center;
   padding: 8px;
-  margin-top: 2vh;
   margin-right: 2vh;
+
   box-shadow: 0px 0px 5px rgb(194, 194, 194);
 }
 
@@ -88,8 +88,7 @@ font-size: x-large;
   }
 
   .profile-pic {
-    margin: 0 auto;
-    margin-bottom: 4vh;
+    margin-top: 0 ;
     margin-left: 10px;
     height: 90px;
     width: 90px;
@@ -113,6 +112,7 @@ font-size: x-large;
     width: 35px;
     height: 35px;
     padding:5px;
+    margin-top: 1vh;
   }
 
   .helloiam{
@@ -128,4 +128,10 @@ font-size: x-large;
   .rolename{
   font-size: x-small;
   }
+
+
+.home-container {
+  padding-top: 15vh;
+}
+
 }

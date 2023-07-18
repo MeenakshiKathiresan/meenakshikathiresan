@@ -30,26 +30,26 @@ const WorkCard = ({ exp }) => {
             <div className="card-body work-card__body">
                 <div className="d-flex justify-content-between">
                     <h5 className="work-card__title">{exp.role_name}
-                    <span className="work-card__date--down"><br/>{exp.start_date} - {exp.end_date}</span> 
+                        <span className="work-card__date--down"><br />{exp.start_date} - {exp.end_date}</span>
                     </h5>
                     <div className="">
-                        <span className="work-card__date--beside">{exp.start_date} - {exp.end_date}</span> 
+                        <span className="work-card__date--beside">{exp.start_date} - {exp.end_date}</span>
 
                         <span >
                             <span className="icon-container">
-                          
-                            {!isOpen ? (
-                                <IoMdArrowDropdownCircle />
-                            ) : (
 
-                                <IoMdArrowDropupCircle />
-                            )}
-                                  
-                                  </span>
+                                {!isOpen ? (
+                                    <IoMdArrowDropdownCircle />
+                                ) : (
+
+                                    <IoMdArrowDropupCircle />
+                                )}
+
+                            </span>
                         </span>
                     </div>
                 </div>
-                <p className="work-card__tag">{exp.company_name}</p>
+                <div className="work-card__tag">{exp.company_name}</div>
 
 
 
@@ -69,7 +69,7 @@ const WorkCard = ({ exp }) => {
                 </div>
 
                 {isOpen && (
-                    <div>
+                    <div className="work-card__content">
                         Achievements: {exp.achievements} <br />
                         Impact on company growth: {exp.impact}<br />
                         <br />

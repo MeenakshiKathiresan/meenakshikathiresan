@@ -20,28 +20,34 @@ const Certification = ({ cert }) => {
 
             <div className="card-body work-card__body">
                 <div className="d-flex justify-content-between">
-                    <h5 className="work-card__title">{cert.name}</h5>
-                    <div>{cert.end_date}
-                        <div className="btn px-4 m-0">
-                            {!isOpen ? (
-                                <IoMdArrowDropdownCircle size={30} />
-                            ) : (
+                    <h5 className="work-card__title">{cert.name}
+                    <span className="work-card__date--down"><br />{cert.end_date}</span>
+                    </h5>
+                    <div className="">
+                        <span className="work-card__date--beside">{cert.end_date}</span>
 
-                                <IoMdArrowDropupCircle size={30} />
-                            )}
-                        </div>
+                        <span >
+                            <span className="icon-container">
 
+                                {!isOpen ? (
+                                    <IoMdArrowDropdownCircle />
+                                ) : (
 
+                                    <IoMdArrowDropupCircle />
+                                )}
+
+                            </span>
+                        </span>
                     </div>
                 </div>
-                <p className="work-card__tag">{cert.institute}</p>
+                <div className="work-card__tag">{cert.institute}</div>
 
                 {isOpen && (
                     <div>
                         {cert.score}
                         <Link to={certificate} target="_blank">
 
-                            <div className="button w-50 " style={{ float: "None" }}>
+                            <div className="button " style={{ float: "None" }}>
                                 View Certificate
                             </div> </Link>
 

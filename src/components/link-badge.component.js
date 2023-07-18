@@ -15,9 +15,9 @@ const LinkBadge = ({ websiteLink, linkname, icon, color }) => {
     const getIcon = (iconName) => {
         switch (iconName) {
             case "github":
-                return <AiFillGithub size={24} color="white" />;
+                return <AiFillGithub color="white" />;
             case "youtube":
-                return <AiFillYoutube size={24} color="white" />;
+                return <AiFillYoutube  color="white" />;
             default:
                 return null;
         }
@@ -30,11 +30,11 @@ const LinkBadge = ({ websiteLink, linkname, icon, color }) => {
 
                     <div className="link-box d-flex">
                         <div className="link-box__icon-holder" style={{ backgroundColor: color }}>
-                            <div className="d-flex justify-content-center pt-1 pb-1">
+                            <div className="d-flex justify-content-center pt-1 pb-1 icon-size">
                                 {getIcon(icon)}
                             </div>
                         </div>
-                        <div className="pt-1">
+                        <div>
                             {linkname}
                         </div>
                     </div>

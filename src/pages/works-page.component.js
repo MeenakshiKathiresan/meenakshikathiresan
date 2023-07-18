@@ -3,6 +3,7 @@ import WorkCard from '../components/work-card.component';
 import works from "../data/work.json";
 import schools from "../data/education.json";
 import "../css/global.css";
+import "../css/work-card.css";
 import EduCard from '../components/edu-card.component';
 import Certification from '../components/certification.component';
 
@@ -10,7 +11,7 @@ const Works = () => {
 
     const p = [1, 2, 3]
     return (
-        <div className="parent-div content">
+        <div className="parent-div content page-top-padding">
             <div className="heading">
             Work experience
             </div>

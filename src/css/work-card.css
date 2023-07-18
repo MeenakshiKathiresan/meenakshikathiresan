@@ -18,6 +18,7 @@
 .work-card__tag {
     font-weight: 600;
     font-size: large;
+    padding-bottom: 12px;
     color: rgb(124, 124, 124);
 }
 
@@ -38,11 +39,15 @@
     display: none;
 }
 
-
+.work-card__content{
+    padding-top: 12px;
+}
 
 .icon-container {
     font-size: 30px;
 }
+
+
 
 @media (max-width: 768px) {
     .work-card {
@@ -51,7 +56,8 @@
 
     .work-card__tag {
         font-weight: 600;
-        font-size: medium;
+        font-size: x-small;
+        padding-bottom: 12px;
     }
 
     .work-card__title {
@@ -76,7 +82,12 @@
     }
     .work-card__body {
         padding-bottom: 0px;
-        font-size: small;
+        font-size: x-small;
     }
+
+    .work-card__content{
+        padding-top: 12px;
+    }
+
 
 }

@@ -14,8 +14,8 @@ const Projects = () => {
 
     return (
         
-        <div className="parent-div content parent-div-top">
-            <h4> {heading} </h4>
+        <div className="parent-div content page-top-padding">
+            <div className="heading"> {heading} </div>
            
             <div className="row">
               
