@@ -4,6 +4,10 @@ import "../css/link-badge.css";
 
 import { RiGlobalLine } from "react-icons/ri"
 import { AiFillGithub, AiFillYoutube } from "react-icons/ai"
+import {FaKaggle, FaItchIo, FaUniversity} from "react-icons/fa";
+import {BiLogoPlayStore} from "react-icons/bi";
+import {TfiThought} from "react-icons/tfi";
+import {BsNewspaper} from "react-icons/bs";
 
 const LinkBadge = ({ websiteLink, linkname, icon, color }) => {
 
@@ -15,9 +19,21 @@ const LinkBadge = ({ websiteLink, linkname, icon, color }) => {
     const getIcon = (iconName) => {
         switch (iconName) {
             case "github":
-                return <AiFillGithub color="white" />;
+                return <AiFillGithub size={14} color="white" />;
             case "youtube":
-                return <AiFillYoutube  color="white" />;
+                return <AiFillYoutube size={12} color="white" />;
+            case "kaggle":
+                return <FaKaggle color="white" size={12}/>;
+            case "itch":
+                return <FaItchIo color="white" size={14}/>;
+            case "university":
+                return <FaUniversity color="white" size={14}/>
+            case "appstore":
+                return <BiLogoPlayStore color="white" size={14}/>
+            case "blog":
+                return <TfiThought color="white" size={14}/>
+            case "news":
+                return <BsNewspaper color="white" size={14}/>
             default:
                 return null;
         }

@@ -45,7 +45,7 @@ const Certification = ({ cert }) => {
                 {isOpen && (
                     <div>
                         {cert.score}
-                        <Link to={certificate} target="_blank">
+                        <Link to={window.location.origin + "/meenakshikathiresan/static/media/AWS.031d25fabde3138dc3b7.pdf"} target="_blank">
 
                             <div className="button " style={{ float: "None" }}>
                                 View Certificate

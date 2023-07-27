@@ -70,6 +70,11 @@ body {
   height: 2px;
   background-color: #6148f3;
 }
+.main-heading{
+  text-decoration: none;
+  color: #6148f3;
+  font-weight: 600;
+}
 
 @media (max-width: 768px) {
   .nav-elements ul li:not(:last-child) {
@@ -108,4 +113,6 @@ body {
     margin-right: unset;
     margin-top: 22px;
   }
+
+ 
 }

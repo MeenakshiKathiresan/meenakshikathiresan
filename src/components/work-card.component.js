@@ -8,6 +8,8 @@ import ProjectCard from "./project-card.component";
 import LinkBadge from "./link-badge.component";
 import { Link } from "react-router-dom";
 
+import { LuCircleDot } from "react-icons/lu";
+
 
 const WorkCard = ({ exp }) => {
 
@@ -70,12 +72,20 @@ const WorkCard = ({ exp }) => {
 
                 {isOpen && (
                     <div className="work-card__content">
-                        Achievements: {exp.achievements} <br />
-                        Impact on company growth: {exp.impact}<br />
+
+
+                        {exp.achievements.map((feature) => {
+                            return <div>
+                                <span> <LuCircleDot /> </span> &nbsp;
+                                <span dangerouslySetInnerHTML={{ __html: feature }} />
+                                <br/><br/>
+                            </div>
+
+                        })}
                         <br />
 
 
-
+                        <div className="d-flex">
                         {exp.links.map((link) => {
                             return <LinkBadge
                                 websiteLink={link.website_link}
@@ -84,10 +94,11 @@ const WorkCard = ({ exp }) => {
                                 color={link.color}
                             />
                         })}
-
+                        </div>
+                        {/* {exp.all_projects &&
                         <Link className="button w-100 mt-4" onClick={handleViewAllClick} to={`/companyprojects/${exp._id}`} >
                             View all projects
-                        </Link>
+                        </Link>} */}
 
 
 

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import {GiHamburgerMenu }from "react-icons/gi";
+import {TbCodeCircle2} from "react-icons/tb";
 
 import '../css/navbar.css'
 
@@ -15,7 +16,10 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container2 parent-div">
         <div className="logo">
-       Meenakshi Kathiresan
+          <NavLink to="/" className="main-heading">
+            <TbCodeCircle2 size={25}/> &nbsp;
+          Meenakshi Kathiresan
+          </NavLink>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <GiHamburgerMenu />

@@ -8,11 +8,15 @@
     padding-top: 10vh;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+}
 
 .heading {
     margin-top: 1vh;
     margin-bottom: 1vh;
-    font-weight: 800;
+    font-weight: 500;
     font-family: monospace;
     font-size: x-large;
 }
@@ -21,8 +25,6 @@
     font-family: monospace;
     font-size: small;
 }
-
-
 
 
 .section {
@@ -55,6 +57,7 @@
     font-weight: 600;
     font-size: medium;
     color: rgb(124, 124, 124);
+    line-height: 30px;
 }
 
 
@@ -77,6 +80,10 @@
 }
 .page-top-padding{
     padding-top: 10vh;
+}
+
+.rounded-edge{
+    border-radius: 16px;
 }
 
 @media (max-width: 768px) {
@@ -130,6 +137,7 @@
     .section-content {
         font-weight: 600;
         font-size: small;
+     
     }
 
     .page-top-padding{

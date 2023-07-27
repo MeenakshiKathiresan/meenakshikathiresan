@@ -7,13 +7,13 @@
             "end_date": "Aug 2023",
             "courses":["Software development","Full stack development", "Machine Learning", "Computer Vision"],
             "cgpa":"4/4",
-            "achievement":"Student marshal",
+            "achievement":"Student Marshal of the IT department for the academic year    ",
             "links": [
                 {
-                    "icon": "github",
+                    "icon": "university",
                     "linkname": "University website",
-                    "website_link": "https://github.com/MeenakshiKathiresan/questionner",
-                    "color": "#292929"
+                    "website_link": "https://www.unh.edu/",
+                    "color": "#868686"
                 }]
         },
         {
@@ -23,13 +23,13 @@
             "end_date": "May 2019",
             "courses":["Programming languages I and II", "Game Development"],
             "cgpa":"8.9/10",
-            "achievement":"",
+            "achievement":"Gave guest lecture to students on Game Developement",
             "links": [
                 {
-                    "icon": "github",
+                    "icon": "university",
                     "linkname": "University Website",
-                    "website_link": "https://github.com/MeenakshiKathiresan/questionner",
-                    "color": "#292929"
+                    "website_link": "https://www.annauniv.edu/",
+                    "color": "#868686"
                 }]
         }
     ], 

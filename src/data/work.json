@@ -6,113 +6,120 @@
             "role_name": "Software Engineer intern",
             "start_date": "Sept 2022",
             "end_date": "Dec 2022",
-            "achievements": "Achieved",
-            "impact": "impacts",
+            "achievements": [
+                "Restructured existing code of 2 projects done in old framework (C++/Python) into new framework (Python3) by breaking down huge single classes into modular relevant classes using Object Oriented Programming (OOPS).",
+                "Implemented file sync feature using python’s pathlib which effectively identifies changed files recursively and selectively replaces them, reducing the file transfer speed by 80%, from 30 seconds to below 5 seconds.",
+                "Built 6 game prototypes as a solo developer for Lightpong (1D gaming console) on the firmware using Python that accounts for 40% of all the games in production for product launch."
+            ],
             "languages": [
-                "javascript"
-               
+                "Python", "C++"
             ],
             "tools": [
-                "Mongo DB"
+              
             ],
             "libraries": [
-                "axios",
-                "bootstrap",
-                "dotenv",
-                "google-oauth"
+                "firmware development",
+                "agile"
             ],
             "links": [
                 {
-                    "icon": "github",
-                    "linkname": "github",
-                    "website_link": "https://github.com/MeenakshiKathiresan/questionner",
-                    "color": "#292929"
+                    "icon": "university",
+                    "linkname": "company website",
+                    "website_link": "https://www.playlightpong.com/",
+                    "color": "#868686"
                 }
             ],
-            "projects": [
+            "all_projects": [
                 {
-                    "id": "0",
-                    "project_name": "Test",
-                    "heading": "Questionner - MERN stack wap",
-                    "tagline": "Tech community: Ask, answer, vote for the best solutions.",
-                    "thumbnail": "https://github-production-user-asset-6210df.s3.amazonaws.com/26730019/247545524-03f973d9-5cb4-4c6b-b71b-0527a74278c8.png",
-                    "startDate": "April, 2023",
-                    "languages": [
-                        "javascript",
-                        "HTML",
-                        "CSS"
-                    ],
-                    "tools": [
-                        "Mongo DB",
-                        "Express",
-                        "React",
-                        "Node",
-                        "MongoDB atlas"
-                    ],
-                    "libraries": [
-                        "axios",
-                        "bootstrap",
-                        "dotenv",
-                        "jwt",
-                        "cors",
-                        "mongoose",
-                        "passport",
-                        "google-oauth"
-                    ],
-                    "links": [
+                    "name":"Games",
+                    "projects": [
                         {
-                            "icon": "github",
-                            "linkname": "github",
-                            "website_link": "https://github.com/MeenakshiKathiresan/questionner",
-                            "color": "#292929"
+                            "id": "0",
+                            "project_name": "Test",
+                            "heading": "Questionner - MERN stack wap",
+                            "tagline": "Tech community: Ask, answer, vote for the best solutions.",
+                            "thumbnail": "https://github-production-user-asset-6210df.s3.amazonaws.com/26730019/247545524-03f973d9-5cb4-4c6b-b71b-0527a74278c8.png",
+                            "startDate": "April, 2023",
+                            "languages": [
+                                "javascript",
+                                "HTML",
+                                "CSS"
+                            ],
+                            "tools": [
+                                "Mongo DB",
+                                "Express",
+                                "React",
+                                "Node",
+                                "MongoDB atlas"
+                            ],
+                            "libraries": [
+                                "axios",
+                                "bootstrap",
+                                "dotenv",
+                                "jwt",
+                                "cors",
+                                "mongoose",
+                                "passport",
+                                "google-oauth"
+                            ],
+                            "links": [
+                                {
+                                    "icon": "github",
+                                    "linkname": "github",
+                                    "website_link": "https://github.com/MeenakshiKathiresan/questionner",
+                                    "color": "#292929"
+                                }
+                            ],
+                            "main_image": "https://github-production-user-asset-6210df.s3.amazonaws.com/26730019/247545524-03f973d9-5cb4-4c6b-b71b-0527a74278c8.png",
+                            "features": [
+                                "<strong>User Authentication:</strong> Users can authenticate using their Gmail accounts (on the server-side with Passport).",
+                                "<strong>Question Management:</strong> Users can create, edit, and delete question posts.",
+                                "<strong>Voting System:</strong> Users can upvote and downvote answers to express their preferences.",
+                                "<strong>Post and Comment Ordering:</strong> Posts and comments are displayed in the order of upvotes",
+                                "<strong>Search Functionality:</strong> Users can search for specific posts using tags or keywords.",
+                                "<strong>Profile Viewing: </strong>Users can view their profiles to see all their activities in one place.",
+                                "<strong>Latest Posts:</strong> A preview of the most recent posts are given on the homepage as teasers."
+                            ],
+                            "project_impact": "Project Impact"
                         }
-                    ],
-                    "main_image": "https://github-production-user-asset-6210df.s3.amazonaws.com/26730019/247545524-03f973d9-5cb4-4c6b-b71b-0527a74278c8.png",
-                    "features": [
-                        "<strong>User Authentication:</strong> Users can authenticate using their Gmail accounts (on the server-side with Passport).",
-                        "<strong>Question Management:</strong> Users can create, edit, and delete question posts.",
-                        "<strong>Voting System:</strong> Users can upvote and downvote answers to express their preferences.",
-                        "<strong>Post and Comment Ordering:</strong> Posts and comments are displayed in the order of upvotes",
-                        "<strong>Search Functionality:</strong> Users can search for specific posts using tags or keywords.",
-                        "<strong>Profile Viewing: </strong>Users can view their profiles to see all their activities in one place.",
-                        "<strong>Latest Posts:</strong> A preview of the most recent posts are given on the homepage as teasers."
-                    ],
-                    "project_impact": "Project Impact"
+                    ]
                 }
             ]
         },
-
-
-
-
         {
             "_id": 1,
             "company_name": "Fitness one, India",
             "role_name": "Associate Product Manager",
             "start_date": "Dec 2019",
             "end_date": "Dec 2021",
-            "achievements": "Achieved",
+            "achievements": [
+                "Managed production and launch of women’s only fitness app, Pink 360 iOS and android which has over 20,000 downloads boosting Pink gym customer base by 10% , allowing members to workout at home during pandemic.",
+                "Led a 4-member team and effectively communicated and delivered technical training sessions over zoom to over 40 gym staff every week which in turn increased app engagement."
+
+            ],
             "impact": "impacts",
-            "languages": [
-                "javascript"
-               
-            ],
-            "tools": [
-                "Mongo DB"
-            ],
+            "languages": [],
+            "tools": [],
             "libraries": [
-                "axios",
-                "bootstrap",
-                "dotenv",
-                "google-oauth"
+                "Adobe XD",
+                "Jira",
+                "Project Management"
             ],
             "links": [
                 {
-                    "icon": "github",
-                    "linkname": "github",
+                    "icon": "university",
+                    "linkname": "company website",
                     "website_link": "https://github.com/MeenakshiKathiresan/questionner",
-                    "color": "#292929"
+                    "color": "#868686"
+                }, 
+                {
+                    "icon": "appstore",
+                    "linkname": "Pink 360",
+                    "website_link": "https://play.google.com/store/apps/details?id=com.pinkfitness&hl=en_US&gl=US",
+                    "color": "#C4467D"
                 }
+
+                
             ],
             "projects": [
                 {
@@ -166,90 +173,54 @@
                 }
             ]
         },
-
-
-
-
-
         {
             "_id": 2,
             "company_name": "Hammer play studios",
             "role_name": "Junior Game Developer",
             "start_date": "Sept 2022",
             "end_date": "Dec 2022",
-            "achievements": "Achieved",
-            "impact": "impacts",
+            "achievements": [
+                "Collaborated to develop a node based editor tool in an agile management for Byju's early learn app in Unity with C# in a 3-member team that made the building pipeline faster by 80% compared to the previously used tool.",
+                "Delivered a hyper casual single-player web game with JavaScript as a solo developer that was released in MX Player with over 100,000 plays.",
+                "Integrated backend of a multiplayer game that updated all statistics using Microsoft Azure’s PlayFab.",
+                "Implemented a tower defense mobile game in C#, using AI agents and object pooling design patterns."
+                
+            ],
             "languages": [
-                "javascript"
-               
+                "C#",
+                "JavaScript",
+                "TypeScript"
             ],
             "tools": [
-                "Mongo DB"
+                "Unity",
+                "Phaser"
             ],
             "libraries": [
-                "axios",
-                "bootstrap",
-                "dotenv",
-                "google-oauth"
+                "AI agents",
+                "Object pooling",
+                "PlayFab"
             ],
             "links": [
                 {
-                    "icon": "github",
-                    "linkname": "github",
-                    "website_link": "https://github.com/MeenakshiKathiresan/questionner",
-                    "color": "#292929"
-                }
-            ],
-            "projects": [
+                    "icon": "university",
+                    "linkname": "company website",
+                    "website_link": "https://hammerplay.com/",
+                    "color": "#868686"
+                },
                 {
-                    "id": "0",
-                    "project_name": "Test",
-                    "heading": "Questionner - MERN stack wap",
-                    "tagline": "Tech community: Ask, answer, vote for the best solutions.",
-                    "thumbnail": "https://github-production-user-asset-6210df.s3.amazonaws.com/26730019/247545524-03f973d9-5cb4-4c6b-b71b-0527a74278c8.png",
-                    "startDate": "April, 2023",
-                    "languages": [
-                        "javascript",
-                        "HTML",
-                        "CSS"
-                    ],
-                    "tools": [
-                        "Mongo DB",
-                        "Express",
-                        "React",
-                        "Node",
-                        "MongoDB atlas"
-                    ],
-                    "libraries": [
-                        "axios",
-                        "bootstrap",
-                        "dotenv",
-                        "jwt",
-                        "cors",
-                        "mongoose",
-                        "passport",
-                        "google-oauth"
-                    ],
-                    "links": [
-                        {
-                            "icon": "github",
-                            "linkname": "github",
-                            "website_link": "https://github.com/MeenakshiKathiresan/questionner",
-                            "color": "#292929"
-                        }
-                    ],
-                    "main_image": "https://github-production-user-asset-6210df.s3.amazonaws.com/26730019/247545524-03f973d9-5cb4-4c6b-b71b-0527a74278c8.png",
-                    "features": [
-                        "<strong>User Authentication:</strong> Users can authenticate using their Gmail accounts (on the server-side with Passport).",
-                        "<strong>Question Management:</strong> Users can create, edit, and delete question posts.",
-                        "<strong>Voting System:</strong> Users can upvote and downvote answers to express their preferences.",
-                        "<strong>Post and Comment Ordering:</strong> Posts and comments are displayed in the order of upvotes",
-                        "<strong>Search Functionality:</strong> Users can search for specific posts using tags or keywords.",
-                        "<strong>Profile Viewing: </strong>Users can view their profiles to see all their activities in one place.",
-                        "<strong>Latest Posts:</strong> A preview of the most recent posts are given on the homepage as teasers."
-                    ],
-                    "project_impact": "Project Impact"
+                    "icon": "blog",
+                    "linkname": "blog",
+                    "website_link": "https://hammerplay.com/blog/2019/womeningames",
+                    "color": "#868686"
+                },
+                {
+                    "icon": "news",
+                    "linkname": "news",
+                    "website_link": "https://www.moneycontrol.com/news/trends/entertainment/women-as-game-developers-this-job-sector-is-welcoming-more-female-participation-4432891.html",
+                    "color": "#868686"
                 }
+
+                
             ]
         }
     ]

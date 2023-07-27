@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import WorkCard from '../components/work-card.component';
 import works from "../data/work.json";
 import schools from "../data/education.json";
@@ -8,6 +8,12 @@ import EduCard from '../components/edu-card.component';
 import Certification from '../components/certification.component';
 
 const Works = () => {
+
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    
+      }, []);
 
     const p = [1, 2, 3]
     return (

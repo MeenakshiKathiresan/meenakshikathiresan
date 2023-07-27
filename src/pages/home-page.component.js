@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "../css/home.css"
 import axios from 'axios';
 import Typewriter from "typewriter-effect";
@@ -9,7 +9,6 @@ import { BsDiscord } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 
 import TagList from '../components/tag-list.component';
-import resume from "../assets/Resume - Meenakshi Kathriesan.pdf"
 
 import { AiFillCheckCircle } from "react-icons/ai"
 import { SiLeetcode } from "react-icons/si"
@@ -18,13 +17,10 @@ import { SiLeetcode } from "react-icons/si"
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from 'react-responsive-carousel';
 
-import projects from "../data/projects.json";
+import projectsData from "../data/projects.json";
 
 import ProjectCardCarousel from '../components/project-card-carousel.component';
 
-import { GrCaretNext, GrCaretPrevious, GrCatetNext } from "react-icons/gr";
-import Footer from '../components/footer.component';
-import zIndex from '@material-ui/core/styles/zIndex';
 import LeetcodeCard from '../components/leetcode-card.component';
 
 
@@ -41,7 +37,7 @@ const Home = () => {
 
     const leetcode_topics = ["Arrays", "Strings", "Linked List", " Two pointers", "Sorting", "Matrix", "Hash table", "Stack", "Queue", "Binary search", "Binary Search Tree", "Binary Tree", "Directed Graphs", "Undirected Graphs", "Depth First Search", "Breadth First Search"]
 
-    const [leetcodeData, setLeetcodeData] = useState({})
+    const [leetcodeData, setLeetcodeData] = useState("")
 
     const category = {
         easy: 'EASY',
@@ -64,9 +60,16 @@ const Home = () => {
                 })
         }
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        
+    
+      }, []);
     return (
         <div className="parent-div parent-div-top content">
             {leetcodeData? "":getLeetcodeData()}
+            {console.log(leetcodeData,"lc data")}
 
             <div className="home-parent-container">
 
@@ -133,8 +136,8 @@ const Home = () => {
                         </Link>
                     </div>
                     <div className="link-button">
-                        <Link to="discordapp.com/users/Meenakshi#0571" target="_blank">
-                            <BsDiscord size={window.innerWidth <= 768 ? 20 : 30} color={"#738ADB"} />{console.log("innerwidth", window.innerWidth)}
+                        <Link to="https://discordapp.com/users/833949874084642827" target="_blank">
+                            <BsDiscord size={window.innerWidth <= 768 ? 20 : 30} color={"#738ADB"} />
                         </Link>
                     </div>
 
@@ -152,26 +155,28 @@ const Home = () => {
                         </div>
 
                         <div className="section-content">
-                            I am a full stack developer with four years of programming experience.
-                            Throughout my journey, I have gained expertise in various aspects of software development.
-                            My skills extend to both front-end and back-end technologies, <br /> <br />
+                        I am an experienced software engineer with a strong background in game development. 
+                        My expertise lies in JavaScript, C#, and Python, and I absolutely love coding. 
+                        What drives me the most is the opportunity to use technology to create a real human impact and 
+                        contribute to a sustainable world.<br /><br />
 
-                            Throughout my journey, I have gained expertise in various aspects of software development.
-                            Throughout my journey, I have gained expertise in various aspects of software development.
+                        Throughout my journey, I have acquired a diverse range of skills, making me a versatile generalist. 
+                        Problem-solving is my passion, and I am always eager to learn new technologies to stay ahead in the 
+                        ever-evolving tech landscape.<br /><br />
 
-                            <br /> <br />
-                            Throughout my journey, I have gained expertise in various aspects of software development.
-                            Throughout my journey, I have gained expertise in various aspects of software development.
-                            various aspects of software development.
+                        My main goal is to build applications that have a meaningful impact on people's lives, 
+                        leveraging my experience with databases and software development. I believe in the power of 
+                        continuous improvement, always striving to be better than I was yesterday.
 
-                            <br />
+                        <br />
 
 
                         </div>
 
-                        <Link to={resume} target="_blank">
+                        <Link to={window.location.origin + "/meenakshikathiresan/static/media/Resume%20-%20Meenakshi%20Kathriesan.e0e7c6ff21ae6ff102ad.pdf"} target="_blank">
 
                             <div className="button" style={{ float: "None" }}>
+
                                 View Resume
                             </div>
                         </Link>
@@ -266,7 +271,7 @@ const Home = () => {
                     <div className="">
 
                         <Carousel >
-                            {projects.projects.map((project) => (
+                            {projectsData.all_projects[0].projects.map((project) => (
                                 <div className="carousel-card">
                                     <Link className="" to={`/projects/${project.id}`} style={{ textDecoration: 'none' }}>
 
