@@ -26,16 +26,12 @@
     padding-bottom: 0px;
 
 }
-.default-height{
-    max-height: none !important;
-}
+
 
 @media (max-width: 768px) {
     .project-card__title {
         font-size: small;
     }
 
-    .project-card__image{
-        max-height: none;
-    }
+
 }
