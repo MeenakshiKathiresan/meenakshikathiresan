@@ -23,6 +23,8 @@ import ProjectCardCarousel from '../components/project-card-carousel.component';
 
 import LeetcodeCard from '../components/leetcode-card.component';
 
+import Resume from "../assets/Resume - Meenakshi Kathiresan.pdf"
+
 
 const Home = () => {
 
@@ -173,7 +175,7 @@ const Home = () => {
 
                         </div>
 
-                        <Link to={window.location.origin + "/meenakshikathiresan/static/media/Resume%20-%20Meenakshi%20Kathriesan.e0e7c6ff21ae6ff102ad.pdf"} target="_blank">
+                        <Link to={window.location.origin + "/meenakshikathiresan/static/media/Resume%20-%20Meenakshi%20Kathiresan.e0e7c6ff21ae6ff102ad.pdf"} target="_blank">
 
                             <div className="button" style={{ float: "None" }}>
 

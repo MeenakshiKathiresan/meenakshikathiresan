@@ -31,12 +31,12 @@ const WorkCard = ({ exp }) => {
 
             <div className="card-body work-card__body">
                 <div className="d-flex justify-content-between">
-                    <h5 className="work-card__title">{exp.role_name}
-                        <span className="work-card__date--down"><br />{exp.start_date} - {exp.end_date}</span>
-                    </h5>
+                    <div className="work-card__title">
+                        {exp.role_name}
+                        <span className="work-card__date--down">{exp.start_date} - {exp.end_date}</span>
+                    </div>
                     <div className="">
                         <span className="work-card__date--beside">{exp.start_date} - {exp.end_date}</span>
-
                         <span >
                             <span className="icon-container">
 
@@ -82,7 +82,6 @@ const WorkCard = ({ exp }) => {
                             </div>
 
                         })}
-                        <br />
 
 
                         <div className="d-flex">

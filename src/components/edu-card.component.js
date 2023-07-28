@@ -4,7 +4,7 @@ import "../css/global.css"
 import TagList from "./tag-list.component"
 
 import { IoMdArrowDropdownCircle, IoMdArrowDropupCircle } from "react-icons/io";
-import { RiGlobalLine } from "react-icons/ri"
+import { LuCircleDot } from "react-icons/lu"
 import LinkBadge from "./link-badge.component";
 import { Link } from "react-router-dom";
 
@@ -48,8 +48,13 @@ const EduCard = ({ edu }) => {
                         <TagList tags={edu.courses} className="libraries-tag" />
 
                     <br/>
-                        <div className="work-card__content{">
-                            Achievements: {edu.achievement}
+                        <div className="work-card__content">
+
+                        <span> <LuCircleDot /> </span> &nbsp;
+                            {edu.achievement}
+
+                            
+                    
 
                         </div>
                         <br/>

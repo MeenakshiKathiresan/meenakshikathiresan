@@ -16,15 +16,15 @@
 }
 
 .work-card__tag {
-    font-weight: 600;
+    font-weight: 520;
     font-size: large;
-    padding-bottom: 12px;
+    padding-bottom: 18px;
     color: rgb(124, 124, 124);
 }
 
 .work-card__title {
     font-weight: 800;
-    font-size: x-large;
+    font-size: large;
     color: rgb(82, 82, 82);
 }
 
