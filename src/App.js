@@ -2,7 +2,7 @@ import './App.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import react from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import NavBar from './components/navbar.component';
 
