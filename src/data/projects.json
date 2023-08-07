@@ -226,157 +226,156 @@
       ]
     },
     {
-      "name":"Games",
+      "name": "Released Projects",
       "projects": [
-      {
-        "id": "0",
-        "project_name": "Loop it",
-        "heading": "Loop it - Unity 2D game",
-        "tagline": "A game jam product on the theme stuck in a loop",
-        "thumbnail": "https://i.imgur.com/WulS0NG.png",
-        "startDate": "Oct 2020",
-        "languages": [
-          "C#"
-        ],
-        "tools": [
-          "Unity"
-        ],
-        "libraries": [
-          "DOTween",
-          "Object pooling"
-        ],
-        "links": [
-          {
-            "icon": "github",
-            "linkname": "github",
-            "website_link": "https://github.com/MeenakshiKathiresan/loop-it",
-            "color": "#292929"
-          },     
-          {
-            "icon": "itch",
-            "linkname": "Play!",
-            "website_link": "https://meenakshikathiresan.itch.io/loop-it",
-            "color": "#FA5C5C"
-          }
-        ],
-        "main_image": "https://i.imgur.com/WulS0NG.png",
-        "features": [
-          "<strong>Theme:</strong> Stuck in a loop - Ludum Dare 47.",
-          "<strong>Game Play:</strong> A simple 2d puzzle where the ball’s starting direction and position are given and you need to adjust the paddle’s rotation to get the ball stuck in an endless loop! Finish it before the timer runs out for bonus",
-          "<strong>Collaboration:</strong> Worked with another developer Anandhi Manivannan and 2D artist Ajeet Krishnan"
-        ],
-        "project_impact": "Completed the game on time and got ranked in top 1000 games out of 6500+ games."
-      },
-      {
-        "id": "1",
-        "project_name": "Juicy Trip",
-        "heading": "Juicy trip - Unity 2D game",
-        "tagline": "A game jam product on the theme deeper and deeper.",
-        "thumbnail": "https://i.imgur.com/Q0XNJbU.png",
-        "startDate": "April 2021",
-        "languages": [
-          "C#"
-        ],
-        "tools": [
-          "Unity"
-        ],
-        "libraries": [
- 
-        ],
-        "links": [
-          {
-            "icon": "github",
-            "linkname": "github",
-            "website_link": "https://github.com/MeenakshiKathiresan/juicy-trip",
-            "color": "#292929"
-          },     
-          {
-            "icon": "itch",
-            "linkname": "Play!",
-            "website_link": "https://anandhiani96gmailcom.itch.io/juicy-trip",
-            "color": "#FA5C5C"
-          }
-        ],
-        "main_image": "https://i.imgur.com/Q0XNJbU.png",
-        "features": [
-          "<strong>Theme:</strong> Deeper and deeper - Ludum Dare 48.",
-          "<strong>Game Play:</strong> Click when you come near the gap to dive deeper in to the Juice. Jump in before the rotten fruit gets to you.",
-          "<strong>Collaboration:</strong> Worked with another developer Anandhi Manivannan and 2D artist Madhumitha"
-        ],
-        "project_impact": "Completed the game on time and got ranked in top 1000 games out of 7800+ games."
-      },
-      {
-        "id": "2",
-        "project_name": "Dock Dilemma",
-        "heading": "Dock Dilemma - Unity 2D game",
-        "tagline": "Educational game for Unite India 2019 Hackathon",
-        "thumbnail": "https://i.imgur.com/jWwQW0z.png",
-        "startDate": "April 2021",
-        "languages": [
-          "C#"
-        ],
-        "tools": [
-          "Unity"
-        ],
-        "libraries": [
- 
-        ],
-        "links": [
-          {
-            "icon": "github",
-            "linkname": "github",
-            "website_link": "https://github.com/MeenakshiKathiresan/dock-dilemma",
-            "color": "#292929"
-          },     
-          {
-            "icon": "itch",
-            "linkname": "Play!",
-            "website_link": "https://meenakshikathiresan.itch.io/dock-dilemma",
-            "color": "#FA5C5C"
-          }
-        ],
-        "main_image": "https://i.imgur.com/2QBEGfg.png",
-        "features": [
-          "<strong>Theme:</strong> Educational Game for students to learn multiplication",
-          "<strong>Game Play:</strong> Direct the numbered ships to the right dock to level up.",
-          "<strong>Collaboration:</strong> Worked with another developer Anandhi Manivannan and 2D artist Sri Prashanth"
-        ],
-        "project_impact": "Shortlisted to the top 10 games of the competition."
-      },
-      {
-        "id": "3",
-        "project_name": "Lost Address",
-        "heading": "Lost Address - Unity 2D game",
-        "tagline": "A game jam product on the theme delivery",
-        "thumbnail": "https://i.imgur.com/9O9bH42.png",
-        "startDate": "April 2023",
-        "languages": [
-          "C#"
-        ],
-        "tools": [
-          "Unity"
-        ],
-        "libraries": [
- 
-        ],
-        "links": [
-          {
-            "icon": "github",
-            "linkname": "github",
-            "website_link": "https://github.com/MeenakshiKathiresan/lost-address",
-            "color": "#292929"
-          }
-        ],
-        "main_image": "https://i.imgur.com/9O9bH42.png",
-        "features": [
-          "<strong>Theme:</strong> Delivery - Ludum Dare 53",
-          "<strong>Game Play:</strong> Your ultimate objective is to deliver the mail before getting knocked out by any of the dangerous individuals.",
-          "<strong>Collaboration:</strong> Worked with 2D artist Ajeet Krishnan"
-        ],
-        "project_impact": "Completed the game on time"
-      }
-    
-    ]
-  }
-]
+        {}
+      ]
+    },
+    {
+      "name": "Games",
+      "projects": [
+        {
+          "id": "0",
+          "project_name": "Loop it",
+          "heading": "Loop it - Unity 2D game",
+          "tagline": "A game jam product on the theme stuck in a loop",
+          "thumbnail": "https://i.imgur.com/WulS0NG.png",
+          "startDate": "Oct 2020",
+          "languages": [
+            "C#"
+          ],
+          "tools": [
+            "Unity"
+          ],
+          "libraries": [
+            "DOTween",
+            "Object pooling"
+          ],
+          "links": [
+            {
+              "icon": "github",
+              "linkname": "github",
+              "website_link": "https://github.com/MeenakshiKathiresan/loop-it",
+              "color": "#292929"
+            },
+            {
+              "icon": "itch",
+              "linkname": "Play!",
+              "website_link": "https://meenakshikathiresan.itch.io/loop-it",
+              "color": "#FA5C5C"
+            }
+          ],
+          "main_image": "https://i.imgur.com/WulS0NG.png",
+          "features": [
+            "<strong>Theme:</strong> Stuck in a loop - Ludum Dare 47.",
+            "<strong>Game Play:</strong> A simple 2d puzzle where the ball’s starting direction and position are given and you need to adjust the paddle’s rotation to get the ball stuck in an endless loop! Finish it before the timer runs out for bonus",
+            "<strong>Collaboration:</strong> Worked with another developer Anandhi Manivannan and 2D artist Ajeet Krishnan"
+          ],
+          "project_impact": "Completed the game on time and got ranked in top 1000 games out of 6500+ games."
+        },
+        {
+          "id": "1",
+          "project_name": "Juicy Trip",
+          "heading": "Juicy trip - Unity 2D game",
+          "tagline": "A game jam product on the theme deeper and deeper.",
+          "thumbnail": "https://i.imgur.com/Q0XNJbU.png",
+          "startDate": "April 2021",
+          "languages": [
+            "C#"
+          ],
+          "tools": [
+            "Unity"
+          ],
+          "libraries": [],
+          "links": [
+            {
+              "icon": "github",
+              "linkname": "github",
+              "website_link": "https://github.com/MeenakshiKathiresan/juicy-trip",
+              "color": "#292929"
+            },
+            {
+              "icon": "itch",
+              "linkname": "Play!",
+              "website_link": "https://anandhiani96gmailcom.itch.io/juicy-trip",
+              "color": "#FA5C5C"
+            }
+          ],
+          "main_image": "https://i.imgur.com/Q0XNJbU.png",
+          "features": [
+            "<strong>Theme:</strong> Deeper and deeper - Ludum Dare 48.",
+            "<strong>Game Play:</strong> Click when you come near the gap to dive deeper in to the Juice. Jump in before the rotten fruit gets to you.",
+            "<strong>Collaboration:</strong> Worked with another developer Anandhi Manivannan and 2D artist Madhumitha"
+          ],
+          "project_impact": "Completed the game on time and got ranked in top 1000 games out of 7800+ games."
+        },
+        {
+          "id": "2",
+          "project_name": "Dock Dilemma",
+          "heading": "Dock Dilemma - Unity 2D game",
+          "tagline": "Educational game for Unite India 2019 Hackathon",
+          "thumbnail": "https://i.imgur.com/jWwQW0z.png",
+          "startDate": "April 2021",
+          "languages": [
+            "C#"
+          ],
+          "tools": [
+            "Unity"
+          ],
+          "libraries": [],
+          "links": [
+            {
+              "icon": "github",
+              "linkname": "github",
+              "website_link": "https://github.com/MeenakshiKathiresan/dock-dilemma",
+              "color": "#292929"
+            },
+            {
+              "icon": "itch",
+              "linkname": "Play!",
+              "website_link": "https://meenakshikathiresan.itch.io/dock-dilemma",
+              "color": "#FA5C5C"
+            }
+          ],
+          "main_image": "https://i.imgur.com/2QBEGfg.png",
+          "features": [
+            "<strong>Theme:</strong> Educational Game for students to learn multiplication",
+            "<strong>Game Play:</strong> Direct the numbered ships to the right dock to level up.",
+            "<strong>Collaboration:</strong> Worked with another developer Anandhi Manivannan and 2D artist Sri Prashanth"
+          ],
+          "project_impact": "Shortlisted to the top 10 games of the competition."
+        },
+        {
+          "id": "3",
+          "project_name": "Lost Address",
+          "heading": "Lost Address - Unity 2D game",
+          "tagline": "A game jam product on the theme delivery",
+          "thumbnail": "https://i.imgur.com/9O9bH42.png",
+          "startDate": "April 2023",
+          "languages": [
+            "C#"
+          ],
+          "tools": [
+            "Unity"
+          ],
+          "libraries": [],
+          "links": [
+            {
+              "icon": "github",
+              "linkname": "github",
+              "website_link": "https://github.com/MeenakshiKathiresan/lost-address",
+              "color": "#292929"
+            }
+          ],
+          "main_image": "https://i.imgur.com/9O9bH42.png",
+          "features": [
+            "<strong>Theme:</strong> Delivery - Ludum Dare 53",
+            "<strong>Game Play:</strong> Your ultimate objective is to deliver the mail before getting knocked out by any of the dangerous individuals.",
+            "<strong>Collaboration:</strong> Worked with 2D artist Ajeet Krishnan"
+          ],
+          "project_impact": "Completed the game on time"
+        }
+      ]
+    }
+  ]
 }

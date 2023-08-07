@@ -8,7 +8,7 @@
             "end_date": "Dec 2022",
             "achievements": [
                 "Restructured existing code of 2 projects done in old framework (C++/Python) into new framework (Python3) by breaking down huge single classes into modular relevant classes using Object Oriented Programming (OOPS).",
-                "Implemented file sync feature using python’s pathlib which effectively identifies changed files recursively and selectively replaces them, reducing the file transfer speed by 80%, from 30 seconds to below 5 seconds.",
+                "Implemented file sync feature using python’s pathlib which effectively identifies changed files recursively and selectively replaces them",
                 "Built 6 game prototypes as a solo developer for Lightpong (1D gaming console) on the firmware using Python that accounts for 40% of all the games in production for product launch."
             ],
             "languages": [

@@ -32,9 +32,12 @@ const Projects = () => {
                                 <Link className="" to={companyId ? `/companyprojects/${companyId}/${project_category.name}/${project.id}` : `/projects/${project_category.name}/${project.id}`} style={{ textDecoration: 'none' }}>
                                     <ProjectCard project={project} displayTag={true} />
                                 </Link>
+                            
                             </div>
                         ))}
+                        
                     </div>
+                    
                 </div>
 
             ))}

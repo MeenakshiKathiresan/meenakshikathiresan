@@ -26,6 +26,7 @@
     font-weight: 800;
     font-size: large;
     color: rgb(82, 82, 82);
+    height: max-content;
 }
 
 .work-card__date--beside {
