@@ -1,7 +1,7 @@
 {
   "all_projects": [
     {
-      "name": "projects",
+      "name": "Projects",
       "projects": [
         {
           "id": "0",
@@ -10,18 +10,8 @@
           "tagline": "Manage clinical vaccine trials, track patients, record vitals",
           "thumbnail": "https://i.imgur.com/k1xUebr.png",
           "startDate": "May 2023",
-          "languages": [
-            "javascript",
-            "HTML",
-            "CSS"
-          ],
-          "tools": [
-            "Mongo DB",
-            "Express",
-            "React",
-            "Node",
-            "MongoDB atlas"
-          ],
+          "languages": ["javascript", "HTML", "CSS"],
+          "tools": ["Mongo DB", "Express", "React", "Node", "MongoDB atlas"],
           "libraries": [
             "axios",
             "bootstrap",
@@ -54,18 +44,8 @@
           "tagline": "Tech community: Ask, answer, vote for the best solutions.",
           "thumbnail": "https://i.imgur.com/fqr3b6c.png",
           "startDate": "April 2023",
-          "languages": [
-            "javascript",
-            "HTML",
-            "CSS"
-          ],
-          "tools": [
-            "Mongo DB",
-            "Express",
-            "React",
-            "Node",
-            "MongoDB atlas"
-          ],
+          "languages": ["javascript", "HTML", "CSS"],
+          "tools": ["Mongo DB", "Express", "React", "Node", "MongoDB atlas"],
           "libraries": [
             "axios",
             "bootstrap",
@@ -103,23 +83,9 @@
           "tagline": "A fullstack e-commerce website with Django",
           "thumbnail": "https://user-images.githubusercontent.com/26730019/221915166-6e13a90a-68be-42ec-85ba-8179ac65a9b7.png",
           "startDate": "Nov 2022",
-          "languages": [
-            "python",
-            "dtl",
-            "javascript",
-            "HTML",
-            "CSS"
-          ],
-          "tools": [
-            "Django",
-            "Amazon S3"
-          ],
-          "libraries": [
-            "Paypal API",
-            "Heroku",
-            "Google OAuth",
-            "git"
-          ],
+          "languages": ["python", "dtl", "javascript", "HTML", "CSS"],
+          "tools": ["Django", "Amazon S3"],
+          "libraries": ["Paypal API", "Heroku", "Google OAuth", "git"],
           "links": [
             {
               "icon": "github",
@@ -147,13 +113,8 @@
           "tagline": "Classify an sms sent to the deployed number as spam or ham",
           "thumbnail": "https://i.imgur.com/3kYWCqW.png",
           "startDate": "May 2022",
-          "languages": [
-            "Python"
-          ],
-          "tools": [
-            "Flask",
-            "AWS DynamoDB"
-          ],
+          "languages": ["Python"],
+          "tools": ["Flask", "AWS DynamoDB"],
           "libraries": [
             "AWS Elastic Beanstalk",
             "Twilio API",
@@ -193,18 +154,9 @@
           "tagline": "An android app with firebase messaging with Java",
           "thumbnail": "https://i.imgur.com/SOOa2eT.png",
           "startDate": "Nov 2022",
-          "languages": [
-            "Java",
-            "XML"
-          ],
-          "tools": [
-            "Firebase",
-            "Firestore"
-          ],
-          "libraries": [
-            "Android Studio",
-            "git"
-          ],
+          "languages": ["Java", "XML"],
+          "tools": ["Firebase", "Firestore"],
+          "libraries": ["Android Studio", "git"],
           "links": [
             {
               "icon": "github",
@@ -228,7 +180,92 @@
     {
       "name": "Released Projects",
       "projects": [
-        {}
+        {
+          "id": "0",
+          "project_name": "Sling Racer",
+          "heading": "Sling Racer - Hypercasual mobile game",
+          "tagline": "Web game built with Javascript game engine phaser",
+          "thumbnail": "https://i.imgur.com/ILjOR3h.png",
+          "startDate": "May 2021",
+          "languages": ["JavaScript"],
+          "tools": ["Phaser"],
+          "libraries": ["Box 2D"],
+          "links": [
+            {
+              "icon": "youtube",
+              "linkname": "gameplay",
+              "website_link": "https://www.youtube.com/shorts/ZJkaD7A-WOw",
+              "color": "#F11F1F"
+            }
+          ],
+          "main_image": "https://i.imgur.com/ILjOR3h.png",
+          "features": [
+            "<strong>Platform:</strong> Mobile web game launched on MX player.",
+            "<strong>Game Play:</strong> A simple 2d game where the player needs to turn by latching on to the anchors and time it to avoid getting collided.",
+            "<strong>Type:</strong> Endless game where roads are generated as you go and you aim to beat the high score!"
+          ],
+          "project_impact": "Played by more than 100,000 people and turned out to be a commercially successful product"
+        },
+        {
+          "id": "1",
+          "project_name": "Rage Road",
+          "heading": "Rage Road - Hypercasual mobile game ",
+          "tagline": "An endless game with C# released as android and iOS app",
+          "thumbnail": "https://i.imgur.com/Gkd7ekz.jpg",
+          "startDate": "May 2021",
+          "languages": ["C#"],
+          "tools": ["Unity"],
+          "libraries": ["Object Pooling", "Collision detection", "Rigid Bodies"],
+          "links": [
+            {
+              "icon": "youtube",
+              "linkname": "gameplay",
+              "website_link": "https://www.youtube.com/watch?v=r3fj4qspi28",
+              "color": "#F11F1F"
+            }
+          ],
+          "main_image": "https://i.imgur.com/Gkd7ekz.jpg",
+          "features": [
+            "<strong>Platform:</strong>  Game developed for the mobile platform",
+            "<strong>Game Play:</strong> Keep shooting and collecting money to level up. Collect power ups and dodge the boss tank to get a higher score!",
+            "<strong>Mechanics:</strong> Drag to position the car",
+            "<strong>Collaboration:</strong> Worked in a team of 3 with another developer and an artist."
+          ],
+          "project_impact": "Product was a success resulting in expanding the product to other platforms like web and pc."
+        },
+        {
+          "id": "2",
+          "project_name": "Pink 360",
+          "heading": "Pink 360 - A women's only fitness app",
+          "tagline": "Managed the production pipeline of the app",
+          "thumbnail": "https://i.imgur.com/nT1fkiD.jpg",
+          "startDate": "Dec 2021",
+          "languages": [],
+          "tools": [],
+          "libraries": [],
+          "links": [
+            {
+              "icon": "youtube",
+              "linkname": "screen grab",
+              "website_link": "https://www.youtube.com/watch?v=mCFSGjjl5F4",
+              "color": "#F11F1F"
+            },{
+              "icon": "appstore",
+              "linkname": "app",
+              "website_link": "https://play.google.com/store/apps/details?id=com.pinkfitness&hl=hi&gl=US",
+              "color": "#4285F4"
+
+              
+            }
+          ],
+          "main_image": "https://i.imgur.com/nT1fkiD.jpg",
+          "features": [
+            "<strong>Platform:</strong> Mobile app released on android and iOS platforms.",
+            "<strong>Features:</strong> Diet tracking and workout programs for different fitness goals including weightloss, weight gain and health issues.",
+            "<strong>Contribution:</strong> Flushed out the features and wireframed the app in adobe XD. Effectively communicated and managed the development, marketing, and content team."
+          ],
+          "project_impact": "Downloaded by more than 20,000 people and used regularly. 1000s of clients stayed fit using the app in the pandemic."
+        }
       ]
     },
     {
@@ -241,16 +278,9 @@
           "tagline": "A game jam product on the theme stuck in a loop",
           "thumbnail": "https://i.imgur.com/WulS0NG.png",
           "startDate": "Oct 2020",
-          "languages": [
-            "C#"
-          ],
-          "tools": [
-            "Unity"
-          ],
-          "libraries": [
-            "DOTween",
-            "Object pooling"
-          ],
+          "languages": ["C#"],
+          "tools": ["Unity"],
+          "libraries": ["DOTween", "Object pooling"],
           "links": [
             {
               "icon": "github",
@@ -280,12 +310,8 @@
           "tagline": "A game jam product on the theme deeper and deeper.",
           "thumbnail": "https://i.imgur.com/Q0XNJbU.png",
           "startDate": "April 2021",
-          "languages": [
-            "C#"
-          ],
-          "tools": [
-            "Unity"
-          ],
+          "languages": ["C#"],
+          "tools": ["Unity"],
           "libraries": [],
           "links": [
             {
@@ -316,12 +342,8 @@
           "tagline": "Educational game for Unite India 2019 Hackathon",
           "thumbnail": "https://i.imgur.com/jWwQW0z.png",
           "startDate": "April 2021",
-          "languages": [
-            "C#"
-          ],
-          "tools": [
-            "Unity"
-          ],
+          "languages": ["C#"],
+          "tools": ["Unity"],
           "libraries": [],
           "links": [
             {
@@ -352,12 +374,8 @@
           "tagline": "A game jam product on the theme delivery",
           "thumbnail": "https://i.imgur.com/9O9bH42.png",
           "startDate": "April 2023",
-          "languages": [
-            "C#"
-          ],
-          "tools": [
-            "Unity"
-          ],
+          "languages": ["C#"],
+          "tools": ["Unity"],
           "libraries": [],
           "links": [
             {

@@ -84,7 +84,7 @@ const WorkCard = ({ exp }) => {
                         })}
 
 
-                        <div className="d-flex">
+                        <div className="d-flex flex-wrap">
                         {exp.links.map((link) => {
                             return <LinkBadge
                                 websiteLink={link.website_link}

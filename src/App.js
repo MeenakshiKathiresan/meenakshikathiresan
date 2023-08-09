@@ -2,7 +2,7 @@ import './App.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import react from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 import NavBar from './components/navbar.component';
 
@@ -19,9 +19,11 @@ function App() {
     <div className="App-color">
 
       <Router basename={process.env.PUBLIC_URL}>
+
        
         <Routes>
           <Route path="/" element={<Home />} />
+
 
 
           <Route path="/works" element={<Works />} />
@@ -31,6 +33,7 @@ function App() {
           <Route path="/companyprojects/:companyId" element={<Projects />} />
           <Route path="/companyprojects/:companyId/:companyProjectType/:projectId" element={<ProjectDetail />} />
 
+          <Route path="*" element={<Navigate to ="/"/>} />
         </Routes>
         <br />
         <Footer />

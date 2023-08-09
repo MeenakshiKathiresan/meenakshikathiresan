@@ -50,7 +50,7 @@ const ProjectDetail = () => {
                         <div className="section-content">
 
                         </div>
-                        <div className="d-flex">
+                        <div className="d-flex flex-wrap">
                         {project.links.map((link) => {
                             return <LinkBadge
                                 websiteLink={link.website_link}
@@ -86,7 +86,7 @@ const ProjectDetail = () => {
                     })}
                 </div>
 
-                <div className="p-4">
+                <div className='d-flex justify-content-center'>
                     <img className="project-image" src={project.main_image} />
                 </div>
                 <div className="section-sub-heading">

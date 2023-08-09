@@ -275,7 +275,7 @@ const Home = () => {
                         <Carousel >
                             {projectsData.all_projects[0].projects.map((project) => (
                                 <div className="carousel-card">
-                                    <Link className="" to={`/projects/${project.id}`} style={{ textDecoration: 'none' }}>
+                                    <Link className="" to={`/projects/projects/${project.id}`} style={{ textDecoration: 'none' }}>
 
                                         <ProjectCardCarousel project={project} cardWidth={"30rem"} displayTag={false} />
 

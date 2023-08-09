@@ -58,7 +58,7 @@ const EduCard = ({ edu }) => {
 
                         </div>
                         <br/>
-
+                        <div className="d-flex flex-wrap">
                         {edu.links.map((link) => {
                             return <LinkBadge
                                 websiteLink={link.website_link}
@@ -67,6 +67,7 @@ const EduCard = ({ edu }) => {
                                 color={link.color}
                             />
                         })}
+                        </div>
                     </div>)
                 }
             </div>

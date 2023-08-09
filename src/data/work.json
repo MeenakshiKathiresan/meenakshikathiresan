@@ -8,7 +8,7 @@
             "end_date": "Dec 2022",
             "achievements": [
                 "Restructured existing code of 2 projects done in old framework (C++/Python) into new framework (Python3) by breaking down huge single classes into modular relevant classes using Object Oriented Programming (OOPS).",
-                "Implemented file sync feature using python’s pathlib which effectively identifies changed files recursively and selectively replaces them",
+                "Implemented file sync feature using python’s pathlib which effectively identifies changed files recursively and selectively replaces them, reducing the file transfer speed by 80%, from 30 seconds to below 5 seconds.",
                 "Built 6 game prototypes as a solo developer for Lightpong (1D gaming console) on the firmware using Python that accounts for 40% of all the games in production for product launch."
             ],
             "languages": [
@@ -177,8 +177,8 @@
             "_id": 2,
             "company_name": "Hammer play studios",
             "role_name": "Junior Game Developer",
-            "start_date": "Sept 2022",
-            "end_date": "Dec 2022",
+            "start_date": "Jan 2019",
+            "end_date": "Oct 2019",
             "achievements": [
                 "Collaborated to develop a node based editor tool in an agile management for Byju's early learn app in Unity with C# in a 3-member team that made the building pipeline faster by 80% compared to the previously used tool.",
                 "Delivered a hyper casual single-player web game with JavaScript as a solo developer that was released in MX Player with over 100,000 plays.",

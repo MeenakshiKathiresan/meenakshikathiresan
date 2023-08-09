@@ -6,7 +6,6 @@ import TagList from "./tag-list.component"
 import { IoMdArrowDropdownCircle, IoMdArrowDropupCircle } from "react-icons/io";
 import { RiGlobalLine } from "react-icons/ri"
 import ProjectCard from "./project-card.component";
-import LinkBadge from "./link-badge.component";
 import { Link } from "react-router-dom";
 import certificate from "../assets/AWS.pdf";
 

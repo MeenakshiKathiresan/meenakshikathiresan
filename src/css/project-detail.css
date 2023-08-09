@@ -28,19 +28,26 @@
     display: flex;
 }
 
-.features-content {}
+.features-content {
+
+}
 
 .project-image {
     border-radius: 6px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
     box-shadow: 0 0 5px rgb(182, 182, 182);
 }
 
 @media (max-width:768px) {
     .container {
         padding: 20px 20px 20px 20px !important;
+        
+    }
+
+    .project-image{
+        width: 100%;
     }
 
     .date--beside {

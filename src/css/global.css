@@ -50,13 +50,13 @@
     font-weight: 600;
     font-size: large;
     padding-bottom: 1vh;
-    color: rgb(124, 124, 124);
+    color: rgb(106, 105, 105);
 }
 
 .section-content {
     font-weight: 600;
     font-size: medium;
-    color: rgb(124, 124, 124);
+    color: rgb(95, 95, 95);
     line-height: 30px;
 }
 
