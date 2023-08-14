@@ -52,7 +52,7 @@
 
 @media (max-width: 768px) {
     .work-card {
-        padding: 12px;
+        padding: 6px;
     }
 
     .work-card__tag {

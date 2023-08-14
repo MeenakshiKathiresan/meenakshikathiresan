@@ -47,6 +47,12 @@ const Home = () => {
         hard: 'HARD',
     };
 
+    // projects and released projects together
+    const getCombinedProjects = () => {
+        const combinedProjects = [...projectsData.all_projects[0].projects, ...projectsData.all_projects[1].projects];
+        return combinedProjects;
+    }
+
     const getLeetcodeData = () => {
         {
 
@@ -273,9 +279,12 @@ const Home = () => {
                     <div className="">
 
                         <Carousel >
-                            {projectsData.all_projects[0].projects.map((project) => (
+                            {
+                            
+                            
+                            getCombinedProjects().map((project) => (
                                 <div className="carousel-card">
-                                    <Link className="" to={`/projects/projects/${project.id}`} style={{ textDecoration: 'none' }}>
+                                    <Link className="" to={`/projects/${project.category}/${project.id}`} style={{ textDecoration: 'none' }}>
 
                                         <ProjectCardCarousel project={project} cardWidth={"30rem"} displayTag={false} />
 

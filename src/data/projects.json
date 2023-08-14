@@ -5,6 +5,7 @@
       "projects": [
         {
           "id": "0",
+          "category":"Projects",
           "project_name": "Vaccine Tracker",
           "heading": "Vaccine Tracker - MERN stack app",
           "tagline": "Manage clinical vaccine trials, track patients, record vitals",
@@ -39,6 +40,7 @@
         },
         {
           "id": "1",
+          "category":"Projects",
           "project_name": "Questionner",
           "heading": "Questionner - MERN stack app",
           "tagline": "Tech community: Ask, answer, vote for the best solutions.",
@@ -78,6 +80,7 @@
         },
         {
           "id": "2",
+          "category":"Projects",
           "project_name": "E-buy",
           "heading": "E-buy - Django Full Stack Web app",
           "tagline": "A fullstack e-commerce website with Django",
@@ -108,6 +111,7 @@
         },
         {
           "id": "3",
+          "category":"Projects",
           "project_name": "Spam/Ham sms detector",
           "heading": "Spam/Ham sms detector - Twilio ",
           "tagline": "Classify an sms sent to the deployed number as spam or ham",
@@ -149,6 +153,7 @@
         },
         {
           "id": "4",
+          "category":"Projects",
           "project_name": "Chatting app",
           "heading": "Let's Chat - Android chat application",
           "tagline": "An android app with firebase messaging with Java",
@@ -182,6 +187,7 @@
       "projects": [
         {
           "id": "0",
+          "category":"Released Projects",
           "project_name": "Sling Racer",
           "heading": "Sling Racer - Hypercasual mobile game",
           "tagline": "Web game built with Javascript game engine phaser",
@@ -208,6 +214,7 @@
         },
         {
           "id": "1",
+          "category":"Released Projects",
           "project_name": "Rage Road",
           "heading": "Rage Road - Hypercasual mobile game ",
           "tagline": "An endless game with C# released as android and iOS app",
@@ -235,6 +242,7 @@
         },
         {
           "id": "2",
+          "category":"Released Projects",
           "project_name": "Pink 360",
           "heading": "Pink 360 - A women's only fitness app",
           "tagline": "Managed the production pipeline of the app",
@@ -273,6 +281,7 @@
       "projects": [
         {
           "id": "0",
+          "category":"Games",
           "project_name": "Loop it",
           "heading": "Loop it - Unity 2D game",
           "tagline": "A game jam product on the theme stuck in a loop",
@@ -305,6 +314,7 @@
         },
         {
           "id": "1",
+          "category":"Games",
           "project_name": "Juicy Trip",
           "heading": "Juicy trip - Unity 2D game",
           "tagline": "A game jam product on the theme deeper and deeper.",
@@ -337,6 +347,7 @@
         },
         {
           "id": "2",
+          "category":"Games",
           "project_name": "Dock Dilemma",
           "heading": "Dock Dilemma - Unity 2D game",
           "tagline": "Educational game for Unite India 2019 Hackathon",
@@ -369,6 +380,7 @@
         },
         {
           "id": "3",
+          "category":"Games",
           "project_name": "Lost Address",
           "heading": "Lost Address - Unity 2D game",
           "tagline": "A game jam product on the theme delivery",
