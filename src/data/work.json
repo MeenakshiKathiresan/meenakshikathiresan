@@ -3,9 +3,9 @@
         {
             "_id": 0,
             "company_name": "Light Pong, Chicago",
-            "role_name": "Software Engineer intern",
-            "start_date": "Sept 2022",
-            "end_date": "Dec 2022",
+            "role_name": "Software Engineer",
+            "start_date": "June 2023",
+            "end_date": "Present",
             "achievements": [
                 "Restructured existing code of 2 projects done in old framework (C++/Python) into new framework (Python3) by breaking down huge single classes into modular relevant classes using Object Oriented Programming (OOPS).",
                 "Implemented file sync feature using python’s pathlib which effectively identifies changed files recursively and selectively replaces them, reducing the file transfer speed by 80%, from 30 seconds to below 5 seconds.",
@@ -93,14 +93,16 @@
             "start_date": "Dec 2019",
             "end_date": "Dec 2021",
             "achievements": [
-                "Managed production and launch of women’s only fitness app, Pink 360 iOS and android which has over 20,000 downloads boosting Pink gym customer base by 10% , allowing members to workout at home during pandemic.",
+                "Managed production and launch of women’s only fitness app, Pink 360 iOS and android which has over 20,000 downloads boosting Pink gym customer base by 10%, allowing members to workout at home during pandemic.",
+                "Wireframed the fitness app in Adobe XD with a focus on delivering an intuitive design and enhancing the user experience, which boosted app engagement.",
+                "Contributed to the development of the admin dashboard’s website using React and Reducers.",
                 "Led a 4-member team and effectively communicated and delivered technical training sessions over zoom to over 40 gym staff every week which in turn increased app engagement."
-
             ],
             "impact": "impacts",
-            "languages": [],
-            "tools": [],
+            "languages": ["JavaScript"],
+            "tools": ["React"],
             "libraries": [
+                "Reducers",
                 "Adobe XD",
                 "Jira",
                 "Project Management"

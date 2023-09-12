@@ -41,7 +41,17 @@
 }
 
 .work-card__content{
-    padding-top: 12px;
+
+   max-height: 0;
+   overflow: hidden;
+   transition-delay: 0ms;
+   transition: max-height 0.5s ease-out;
+}
+.work-card__content-open{
+
+    height: auto;
+    max-height: 9999px;
+    transition: all 1s ease-in !important;
 }
 
 .icon-container {
@@ -86,6 +96,9 @@
         font-size: x-small;
     }
 
+    .work-card__content-open{
+        padding-top: 12px;
+    }
     .work-card__content{
         padding-top: 12px;
     }
