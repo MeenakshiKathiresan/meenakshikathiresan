@@ -70,8 +70,8 @@ const WorkCard = ({ exp }) => {
 
                 </div>
 
-                {isOpen && (
-                    <div className="work-card__content">
+               
+                    <div className= {` ${isOpen ? 'work-card__content-open' : 'work-card__content'}`}>
 
 
                         {exp.achievements.map((feature) => {
@@ -102,8 +102,8 @@ const WorkCard = ({ exp }) => {
 
 
 
-                    </div>)
-                }
+                    </div>
+                
             </div>
         </div>
 
