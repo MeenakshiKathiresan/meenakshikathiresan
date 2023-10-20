@@ -7,6 +7,7 @@
             "start_date": "June 2023",
             "end_date": "Present",
             "achievements": [
+                "Developed scalable and efficient HTTP APIs utilizing Node.js, deployed on AWS Lambda and API Gateway, leveraging the Serverless Framework for streamlined deployment and management.",
                 "Restructured existing code of 2 projects done in old framework (C++/Python) into new framework (Python3) by breaking down huge single classes into modular relevant classes using Object Oriented Programming (OOPS).",
                 "Implemented file sync feature using python’s pathlib which effectively identifies changed files recursively and selectively replaces them, reducing the file transfer speed by 80%, from 30 seconds to below 5 seconds.",
                 "Built 6 game prototypes as a solo developer for Lightpong (1D gaming console) on the firmware using Python that accounts for 40% of all the games in production for product launch."
@@ -88,37 +89,48 @@
         },
         {
             "_id": 1,
-            "company_name": "Fitness one, India",
-            "role_name": "Associate Product Manager",
+            "company_name": "Hammer play studios",
+            "role_name": "Freelance Game Developer",
             "start_date": "Dec 2019",
             "end_date": "Dec 2021",
             "achievements": [
-                "Managed production and launch of women’s only fitness app, Pink 360 iOS and android which has over 20,000 downloads boosting Pink gym customer base by 10%, allowing members to workout at home during pandemic.",
-                "Wireframed the fitness app in Adobe XD with a focus on delivering an intuitive design and enhancing the user experience, which boosted app engagement.",
-                "Contributed to the development of the admin dashboard’s website using React and Reducers.",
-                "Led a 4-member team and effectively communicated and delivered technical training sessions over zoom to over 40 gym staff every week which in turn increased app engagement."
-            ],
+               "Produced and presented over 5 successful prototypes, securing client approval for subsequent large-scale projects. Exceptional proficiency in crafting compelling proof of concepts that resonate with clients.",
+               "Built a game called Sling racer, a hyper casual single-player web game with JavaScript in Phaser game engine with P2 physics and procedural generation that was released in MX Player with over 100,000 plays.",
+               "Implemented a 3D tower defense mobile game in C# using AI agents, collision system, DG tweening and object pooling. Integrated 3D models, animation, and UI to deliver a complete end to end game."
+                 ],
             "impact": "impacts",
-            "languages": ["JavaScript"],
-            "tools": ["React"],
+            "languages": [
+                "C#",
+                "JavaScript",
+                "TypeScript"
+            ],
+            "tools": [
+                "Unity",
+                "Phaser"
+            ],
             "libraries": [
-                "Reducers",
-                "Adobe XD",
-                "Jira",
-                "Project Management"
+                "AI agents",
+                "Object pooling",
+                "PlayFab"
             ],
             "links": [
                 {
                     "icon": "university",
                     "linkname": "company website",
-                    "website_link": "https://github.com/MeenakshiKathiresan/questionner",
+                    "website_link": "https://hammerplay.com/",
                     "color": "#868686"
-                }, 
+                },
                 {
-                    "icon": "appstore",
-                    "linkname": "Pink 360",
-                    "website_link": "https://play.google.com/store/apps/details?id=com.pinkfitness&hl=en_US&gl=US",
-                    "color": "#C4467D"
+                    "icon": "blog",
+                    "linkname": "blog",
+                    "website_link": "https://hammerplay.com/blog/2019/womeningames",
+                    "color": "#868686"
+                },
+                {
+                    "icon": "news",
+                    "linkname": "news",
+                    "website_link": "https://www.moneycontrol.com/news/trends/entertainment/women-as-game-developers-this-job-sector-is-welcoming-more-female-participation-4432891.html",
+                    "color": "#868686"
                 }
 
                 
@@ -183,10 +195,8 @@
             "end_date": "Oct 2019",
             "achievements": [
                 "Collaborated to develop a node based editor tool in an agile management for Byju's early learn app in Unity with C# in a 3-member team that made the building pipeline faster by 80% compared to the previously used tool.",
-                "Delivered a hyper casual single-player web game with JavaScript as a solo developer that was released in MX Player with over 100,000 plays.",
-                "Integrated backend of a multiplayer game that updated all statistics using Microsoft Azure’s PlayFab.",
-                "Implemented a tower defense mobile game in C#, using AI agents and object pooling design patterns."
-                
+                "Created interactive educational games using the developed tool for Byju's in collaboration with Disney, with a focus on developing reusable, child-friendly multiple-choice question (MCQ) and classification games.",
+                "Integrated backend of a multiplayer game that updated all statistics using Microsoft Azure’s PlayFab for a car racing game made with C# in Unity 3D."
             ],
             "languages": [
                 "C#",
