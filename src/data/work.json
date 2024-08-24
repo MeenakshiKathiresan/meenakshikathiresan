@@ -5,7 +5,7 @@
             "company_name": "Light Pong, Chicago",
             "role_name": "Software Engineer",
             "start_date": "June 2023",
-            "end_date": "Present",
+            "end_date": "December 2023",
             "achievements": [
                 "Developed scalable and efficient HTTP APIs utilizing Node.js, deployed on AWS Lambda and API Gateway, leveraging the Serverless Framework for streamlined deployment and management.",
                 "Restructured existing code of 2 projects done in old framework (C++/Python) into new framework (Python3) by breaking down huge single classes into modular relevant classes using Object Oriented Programming (OOPS).",
