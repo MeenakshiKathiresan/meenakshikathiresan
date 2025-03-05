@@ -1,11 +1,96 @@
 {
     "works": [
+        {  "_id": 0,
+        "company_name": "Cummings Properties",
+        "role_name": "Software Engineer",
+        "start_date": "December 2023",
+        "end_date": "Present",
+        "achievements": [
+            "Developed a highly configurable reporting system using ASP.NET Core MVC and SQL Server, initially for accounts receivable but designed for easy reuse across other modules. Created a presets module to save user configurations as global or personal presets, significantly speeding up report generation.",
+            "Identified a critical issue in the existing third-party utility billing system for heatpump usage, leading to revenue loss. Built a new system to process weekly CSV dumps, handle errors, and apply rules to generate accurate invoices for each lease, significantly increasing revenue (by 3x) by capturing previously missed charges.",
+            "Created a comprehensive in-house library application using ASP.NET Core MVC, enabling seamless calendar management, recurring events, and meeting room bookings. Implemented key modules for authentication (Windows and Identity), role management, calendar, event scheduling, link sharing, and advanced search functionality."
+        ],
+        "languages": [
+            "C#", "JavaScript"
+        ],
+        "tools": [
+          
+        ],
+        "libraries": [
+            "ASP.NET Core",
+            "SQL Server"
+        ],
+        "links": [
+            {
+                "icon": "university",
+                "linkname": "company website",
+                "website_link": "https://www.cummings.com/",
+                "color": "#868686"
+            }
+        ],
+        "all_projects": [
+            {
+                "name":"Games",
+                "projects": [
+                    {
+                        "id": "0",
+                        "project_name": "Test",
+                        "heading": "Questionner - MERN stack wap",
+                        "tagline": "Tech community: Ask, answer, vote for the best solutions.",
+                        "thumbnail": "https://github-production-user-asset-6210df.s3.amazonaws.com/26730019/247545524-03f973d9-5cb4-4c6b-b71b-0527a74278c8.png",
+                        "startDate": "April, 2023",
+                        "languages": [
+                            "javascript",
+                            "HTML",
+                            "CSS"
+                        ],
+                        "tools": [
+                            "Mongo DB",
+                            "Express",
+                            "React",
+                            "Node",
+                            "MongoDB atlas"
+                        ],
+                        "libraries": [
+                            "axios",
+                            "bootstrap",
+                            "dotenv",
+                            "jwt",
+                            "cors",
+                            "mongoose",
+                            "passport",
+                            "google-oauth"
+                        ],
+                        "links": [
+                            {
+                                "icon": "github",
+                                "linkname": "github",
+                                "website_link": "https://github.com/MeenakshiKathiresan/questionner",
+                                "color": "#292929"
+                            }
+                        ],
+                        "main_image": "https://github-production-user-asset-6210df.s3.amazonaws.com/26730019/247545524-03f973d9-5cb4-4c6b-b71b-0527a74278c8.png",
+                        "features": [
+                            "<strong>User Authentication:</strong> Users can authenticate using their Gmail accounts (on the server-side with Passport).",
+                            "<strong>Question Management:</strong> Users can create, edit, and delete question posts.",
+                            "<strong>Voting System:</strong> Users can upvote and downvote answers to express their preferences.",
+                            "<strong>Post and Comment Ordering:</strong> Posts and comments are displayed in the order of upvotes",
+                            "<strong>Search Functionality:</strong> Users can search for specific posts using tags or keywords.",
+                            "<strong>Profile Viewing: </strong>Users can view their profiles to see all their activities in one place.",
+                            "<strong>Latest Posts:</strong> A preview of the most recent posts are given on the homepage as teasers."
+                        ],
+                        "project_impact": "Project Impact"
+                    }
+                ]
+            }
+        ]
+    },
         {
-            "_id": 0,
+            "_id": 1,
             "company_name": "Light Pong, Chicago",
             "role_name": "Software Engineer",
             "start_date": "June 2023",
-            "end_date": "Present",
+            "end_date": "December 2023",
             "achievements": [
                 "Developed scalable and efficient HTTP APIs utilizing Node.js, deployed on AWS Lambda and API Gateway, leveraging the Serverless Framework for streamlined deployment and management.",
                 "Restructured existing code of 2 projects done in old framework (C++/Python) into new framework (Python3) by breaking down huge single classes into modular relevant classes using Object Oriented Programming (OOPS).",
@@ -88,7 +173,7 @@
             ]
         },
         {
-            "_id": 1,
+            "_id": 2,
             "company_name": "Hammer play studios",
             "role_name": "Freelance Game Developer",
             "start_date": "Dec 2019",
@@ -188,7 +273,7 @@
             ]
         },
         {
-            "_id": 2,
+            "_id": 3,
             "company_name": "Hammer play studios",
             "role_name": "Junior Game Developer",
             "start_date": "Jan 2019",

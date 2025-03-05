@@ -28,7 +28,7 @@ import Resume from "../assets/Resume - Meenakshi Kathiresan.pdf"
 
 const Home = () => {
 
-    const languages = ["JavaScript", "TypeScript", "Python", "C#"]
+    const languages = ["C#","JavaScript", "TypeScript", "Python"]
     const halfLanguages = ["C++", "Java"]
     const webTechnolgies = ["React", "Express", "Node", "Django", "HTML", "CSS", "RESTful API"]
     const halfWebTechnolgies = ["Angular"]
