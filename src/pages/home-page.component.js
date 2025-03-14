@@ -163,25 +163,19 @@ const Home = () => {
                         </div>
 
                         <div className="section-content">
-                        I am an experienced software engineer with a strong background in game development. 
-                        My expertise lies in JavaScript, C#, and Python, and I absolutely love coding. 
-                        What drives me the most is the opportunity to use technology to create a real human impact and 
-                        contribute to a sustainable world.<br /><br />
-
-                        Throughout my journey, I have acquired a diverse range of skills, making me a versatile generalist. 
-                        Problem-solving is my passion, and I am always eager to learn new technologies to stay ahead in the 
-                        ever-evolving tech landscape.<br /><br />
-
-                        My main goal is to build applications that have a meaningful impact on people's lives, 
-                        leveraging my experience with databases and software development. I believe in the power of 
-                        continuous improvement, always striving to be better than I was yesterday.
-
-                        <br />
-
+                        I am a fullstack engineer with a SOLID foundation in fundamentals, data structures and algorithms, object oriented programming.
+                        I enjoy diving deep into how things work under the hood and prioritize writing clean, maintainable, and readable code. 
+                        I focus on creating code that is easy to understand and efficient, aiming to boost productivity 10x with good structure, naming, and optimization.
+                        <br /><br />
+                        I care about creating products that make a real impact. The greatest satisfaction comes from knowing people find value and benefit from the solutions I build. 
+                        I am always learning and striving to improve, with a strong desire to contribute to a sustainable world.
+                        <br /><br />
+                        I am a quick learner and can easily adapt to a fast paced work environment. Feel free to reach out to chat, and let's collaborate on the next big thing!
+                        Fun fact: If I could only have one fruit for the rest of my life, it would probably be an orange!
 
                         </div>
 
-                        <Link to={window.location.origin + "/meenakshikathiresan/static/media/Resume%20-%20Meenakshi%20Kathiresan.e541a60026c3a6ac29fc.pdf"} target="_blank">
+                        <Link to={window.location.origin + "/meenakshikathiresan/static/media/Resume%20-%20Meenakshi%20Kathiresan.4e2c8a5457168ee062b1.pdf"} target="_blank">
 
                             <div className="button" style={{ float: "None" }}>
 

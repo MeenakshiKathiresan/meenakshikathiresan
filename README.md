@@ -1,26 +1,69 @@
-## 1. Install Dependencies
-`npm install`
+# Meenakshi Kathiresan
 
-## 2. Build the Project
-`npm run build`
+![Profile](https://avatars.githubusercontent.com/u/your-profile-id)
 
-## 3. Install gh-pages (if not already installed)
-`npm install gh-pages --save-dev`
+**Software Engineer | Full Stack Developer | Game Developer**  
+[LinkedIn](https://www.linkedin.com/in/your-profile) | [GitHub](https://github.com/your-github) 
 
-## 4. Update package.json
-Add the following to your package.json:
-```
-"homepage": "https://github.com/MeenakshiKathiresan",
-"scripts": {
-"predeploy": "npm run build",
-"deploy": "gh-pages -d build"
-} 
-```
+---
 
-## 5. Deploy the App
-`npm run deploy`
+## 🚀 About Me
+I am a passionate Software Engineer with 4+ years of experience, transitioning from the game development industry to full-stack web development. Proficient in **C#, Python, JavaScript, and TypeScript**, with expertise in **ASP.NET Core MVC, React, Node.js, and Django**. Strong foundation in **Data Structures, Algorithms, and Object-Oriented Programming**.
 
-## 6. Visit Your Site
-Your site will be available at:
-https://meenakshikathiresan.github.io/meenakshikathiresan
+---
+
+## 🛠️ Skills
+- **Languages:** C#, Python, JavaScript, TypeScript
+- **Web Technologies:** ASP.NET Core MVC, React, Node.js, Django, jQuery, AJAX, HTML, CSS
+- **Databases:** SQL Server, MongoDB
+- **Cloud & Tools:** AWS, Docker, Firebase, Git
+- **Game Development:** Unity 3D, Phaser.js
+- **Other:** Agile, Adobe XD
+
+---
+
+## 💼 Experience
+### **Software Engineer - Cummings Properties (Dec 2023 - Present)**
+- Developed a highly configurable reporting system using **ASP.NET Core MVC and SQL Server**, enabling module reusability.
+- Built a **utility billing system** for heat pump usage, increasing revenue by 3x.
+- Created an **in-house library application** for event scheduling, authentication, and role management.
+
+### **Software Engineer - Lightpong (June 2023 - Dec 2023)**
+- Developed **TypeScript Lambda functions** for the Lightpong companion app, optimizing performance with **DynamoDB**.
+- Built **6 game prototypes** for a 1D gaming console using **ESP32 firmware and Python**.
+- Implemented a **file sync feature** in CLI, reducing file transfer time by 90%.
+
+### **Game Developer - Hammerplay Studios (Jan 2019 - Dec 2021)**
+- Built **Sling Racer**, a JavaScript web game with **100,000+ plays**.
+- Developed a **3D tower defense mobile game** in **Unity (C#)** with AI agents and object pooling.
+- Created educational games for **Byju's** in collaboration with **Disney**.
+
+---
+
+## 📌 Projects
+### 🎮 **Game Projects (C#)**
+- [Juicy Trip (Play)](https://github.com/your-github/juicy-trip)
+- [Loop It (Play)](https://github.com/your-github/loop-it)
+- [Dock Dilemma (Play)](https://github.com/your-github/dock-dilemma)
+
+### 🌍 **Full Stack Projects**
+- [Questionner (MERN)](https://github.com/your-github/questionner)
+- [Vaccine Tracking (MERN)](https://github.com/your-github/vaccine-tracking)
+- [E-commerce (Django & Vanilla JS)](https://github.com/your-github/ecommerce)
+
+---
+
+## 🎓 Education
+### **University of New Hampshire (Aug 2023)**
+**Master of Science in Information Technology (GPA: 3.99/4)**  
+Student Marshal of the IT Department
+
+---
+
+## 📫 Contact
+📧 meenakshikathiresan3@gmail.com  
+
+---
+
+### ⚡ Let's Build Something Amazing Together!
 
