@@ -1,8 +1,6 @@
 # Meenakshi Kathiresan
 
 **Software Engineer | Full Stack Developer | Game Developer**  
-[LinkedIn](https://www.linkedin.com/in/your-profile) | [GitHub](https://github.com/your-github) 
-
 ---
 
 ## 🚀 About Me
