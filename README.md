@@ -36,19 +36,6 @@ I am a passionate Software Engineer with 4+ years of experience, transitioning f
 
 ---
 
-## 📌 Projects
-### 🎮 **Game Projects (C#)**
-- [Juicy Trip (Play)](https://github.com/your-github/juicy-trip)
-- [Loop It (Play)](https://github.com/your-github/loop-it)
-- [Dock Dilemma (Play)](https://github.com/your-github/dock-dilemma)
-
-### 🌍 **Full Stack Projects**
-- [Questionner (MERN)](https://github.com/your-github/questionner)
-- [Vaccine Tracking (MERN)](https://github.com/your-github/vaccine-tracking)
-- [E-commerce (Django & Vanilla JS)](https://github.com/your-github/ecommerce)
-
----
-
 ## 🎓 Education
 ### **University of New Hampshire (Aug 2023)**
 **Master of Science in Information Technology (GPA: 3.99/4)**  
