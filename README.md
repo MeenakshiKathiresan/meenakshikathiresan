@@ -3,12 +3,12 @@
 **Software Engineer | Full Stack Developer | Game Developer**  
 ---
 
-## 🚀 About Me
+## About Me
 I am a passionate Software Engineer with 4+ years of experience, transitioning from the game development industry to full-stack web development. Proficient in **C#, Python, JavaScript, and TypeScript**, with expertise in **ASP.NET Core MVC, React, Node.js, and Django**. Strong foundation in **Data Structures, Algorithms, and Object-Oriented Programming**.
 
 ---
 
-## 🛠️ Skills
+## Skills
 - **Languages:** C#, Python, JavaScript, TypeScript
 - **Web Technologies:** ASP.NET Core MVC, React, Node.js, Django, jQuery, AJAX, HTML, CSS
 - **Databases:** SQL Server, MongoDB
@@ -18,7 +18,7 @@ I am a passionate Software Engineer with 4+ years of experience, transitioning f
 
 ---
 
-## 💼 Experience
+## Experience
 ### **Software Engineer - Cummings Properties (Dec 2023 - Present)**
 - Developed a highly configurable reporting system using **ASP.NET Core MVC and SQL Server**, enabling module reusability.
 - Built a **utility billing system** for heat pump usage, increasing revenue by 3x.
@@ -36,14 +36,14 @@ I am a passionate Software Engineer with 4+ years of experience, transitioning f
 
 ---
 
-## 🎓 Education
+## Education
 ### **University of New Hampshire (Aug 2023)**
 **Master of Science in Information Technology (GPA: 3.99/4)**  
 Student Marshal of the IT Department
 
 ---
 
-## 📫 Contact
+## Contact
 📧 meenakshikathiresan3@gmail.com  
 
 ---
